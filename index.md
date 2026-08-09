@@ -31,3 +31,13 @@ Unit 2 explores the five SOLID principles of object-oriented design: Single Resp
 The formative activity involved refactoring an online shopping system to apply the SOLID principles and improve the structure and maintainability of the code.
 
 - [SOLID Online Shopping System](unit2_solid_shopping_system.py)
+
+## Unit 3 – Design Patterns I: Creational Patterns
+
+Unit 3 introduces creational design patterns and their role in creating flexible and maintainable object-oriented software. The unit covers Singleton, Factory Method, Builder, Prototype and Abstract Factory patterns.
+
+### Unit 3 Formative Activity
+
+The formative activity involved implementing the Factory Method Pattern for a car manufacturing system. The solution uses abstract classes and concrete factories to create Sedan, SUV and Hatchback objects without directly specifying their concrete classes in the client code.
+
+- [Factory Method Car Manufacturing System](unit3_factory_method.py)
