@@ -41,3 +41,19 @@ Unit 3 introduces creational design patterns and their role in creating flexible
 The formative activity involved implementing the Factory Method Pattern for a car manufacturing system. The solution uses abstract classes and concrete factories to create Sedan, SUV and Hatchback objects without directly specifying their concrete classes in the client code.
 
 - [Factory Method Car Manufacturing System](unit3_factory_method.py)
+
+---
+
+## Unit 4 – Design Patterns II: Structural Patterns
+
+Unit 4 focused on structural design patterns and how they can be used to organise classes and objects into flexible and maintainable software structures. I explored the Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweight patterns.
+
+### Unit 4 Practical Exercise
+
+For the practical activity, I implemented the Decorator Pattern using a simple coffee ordering system. The program demonstrates how additional features, such as milk and sugar, can be added dynamically without changing the original coffee class.
+
+- [Decorator Pattern – Coffee Ordering System](unit4_decorator_pattern.py)
+
+### Collaborative Discussion
+
+I also explored the Adapter, Bridge and Composite patterns through practical scenarios and Python examples as part of the collaborative discussion.
