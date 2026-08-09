@@ -42,7 +42,6 @@ The formative activity involved implementing the Factory Method Pattern for a ca
 
 - [Factory Method Car Manufacturing System](unit3_factory_method.py)
 
----
 
 ## Unit 4 – Design Patterns II: Structural Patterns
 
