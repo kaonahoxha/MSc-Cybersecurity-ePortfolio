@@ -56,3 +56,20 @@ For the practical activity, I implemented the Decorator Pattern using a simple c
 ### Collaborative Discussion
 
 I also explored the Adapter, Bridge and Composite patterns through practical scenarios and Python examples as part of the collaborative discussion.
+
+
+## Unit 5 – Design Patterns III: Behavioural Patterns
+
+Unit 5 focused on behavioural design patterns and how they manage communication and interaction between objects. The unit covered Strategy, Observer, Chain of Responsibility, Template Method, Command and State patterns.
+
+### Unit 5 Practical Exercise
+
+For the practical activity, I implemented the Strategy Pattern using a payment processing system. Different payment methods were separated into individual strategies, allowing the payment behaviour to be changed without modifying the main PaymentProcessor class.
+
+The implementation demonstrates how Credit Card, PayPal and Bank Transfer payment strategies can be used interchangeably at runtime, making the system easier to extend and maintain.
+
+- [Strategy Pattern – Payment Processing System](https://github.com/kaonahoxha/MSc-Cybersecurity-ePortfolio/blob/main/unit5_strategy_pattern.py)
+
+### Collaborative Discussion 2
+
+As part of the collaborative discussion, I analysed an initially tightly coupled payment processing system and considered how the Strategy Pattern could improve its design. The refactored approach separates payment-specific behaviour from the main processor, improving extensibility, maintainability and testability.
