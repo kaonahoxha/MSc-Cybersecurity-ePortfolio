@@ -21,3 +21,13 @@ Unit 1 revisits the core principles of object-oriented programming, including in
 - [Task 3 – Encapsulation with Access Control](unit1_task3.py)
 - [Task 4 – Abstraction with Base Class](unit1_task4.py)
 - [Task 5 – Constructor and Destructor](unit1_task5.py)
+
+## Unit 2 – SOLID Principles of Object-Oriented Design
+
+Unit 2 explores the five SOLID principles of object-oriented design: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion. These principles support the development of maintainable, scalable and adaptable software systems.
+
+### Unit 2 Formative Activity
+
+The formative activity involved refactoring an online shopping system to apply the SOLID principles and improve the structure and maintainability of the code.
+
+- [SOLID Online Shopping System](unit2_solid_shopping_system.py)
