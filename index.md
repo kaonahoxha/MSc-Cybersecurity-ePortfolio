@@ -6,6 +6,13 @@ Welcome to my MSc Cybersecurity e-Portfolio. This portfolio documents my learnin
 
 ## Modules
 
+### Security and Risk Management
+
+This module examines qualitative and quantitative risk assessment, threat modelling, security standards, business continuity and disaster recovery.
+
+- [Security and Risk Management module portfolio](security-risk-management.md)
+
+
 ### Advanced Object-Oriented Design and Programming
 
 This module explores advanced object-oriented programming principles and their application to the design of scalable, maintainable and secure software systems.
