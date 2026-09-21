@@ -17,6 +17,7 @@ class User:
             self._salt,
             100_000
         )
+
         return hmac.compare_digest(
             self._password_hash,
             candidate_hash
@@ -40,11 +41,27 @@ class UserManager:
             raise ValueError("Invalid user role.")
 
         if len(password) < 12:
-    raise ValueError(
-        "Password must contain at least 12 characters."
-        )
+            raise ValueError(
+                "Password must contain at least 12 characters."
+            )
+
+        if not any(char.isupper() for char in password):
+            raise ValueError(
+                "Password must contain an uppercase letter."
+            )
+
+        if not any(char.isdigit() for char in password):
+            raise ValueError(
+                "Password must contain a number."
+            )
+
+        if not any(not char.isalnum() for char in password):
+            raise ValueError(
+                "Password must contain a special character."
+            )
 
         salt = os.urandom(16)
+
         password_hash = hashlib.pbkdf2_hmac(
             "sha256",
             password.encode(),
@@ -52,8 +69,15 @@ class UserManager:
             100_000
         )
 
-        user = User(username, password_hash, salt, role)
+        user = User(
+            username,
+            password_hash,
+            salt,
+            role
+        )
+
         self._users[username] = user
+
         return user
 
     def authenticate(self, username, password):
