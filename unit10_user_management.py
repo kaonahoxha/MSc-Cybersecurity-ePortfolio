@@ -40,9 +40,9 @@ class UserManager:
             raise ValueError("Invalid user role.")
 
         if len(password) < 12:
-            raise ValueError(
-                "Password must contain at least 12 characters."
-            )
+    raise ValueError(
+        "Password must contain at least 12 characters."
+        )
 
         salt = os.urandom(16)
         password_hash = hashlib.pbkdf2_hmac(
