@@ -76,7 +76,29 @@ class TestUserManagement(unittest.TestCase):
                 "WrongPassword123!"
             )
         )
+    def test_password_requires_uppercase(self):
+        with self.assertRaises(ValueError):
+            self.manager.add_user(
+                "student1",
+                "securepass123!",
+                "student"
+            )
 
+    def test_password_requires_number(self):
+        with self.assertRaises(ValueError):
+            self.manager.add_user(
+                "student1",
+                "SecurePassword!",
+                "student"
+            )
+
+    def test_password_requires_special_character(self):
+        with self.assertRaises(ValueError):
+            self.manager.add_user(
+                "student1",
+                "SecurePass123",
+                "student"
+            )
 
 if __name__ == "__main__":
     unittest.main()
