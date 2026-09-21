@@ -69,3 +69,13 @@ The completed implementation was tested using Python's unittest framework. Six u
 - Incorrect password authentication
 
 All six tests passed successfully.
+
+### Refactoring and Improvement
+
+After the initial six tests passed, I reviewed the implementation to identify areas where the security and maintainability of the module could be improved.
+
+The original password validation only required a minimum length of 12 characters. I extended the test suite before modifying the implementation by adding tests requiring an uppercase letter, a number and a special character. The implementation was then refactored to satisfy these additional requirements.
+
+After refactoring, the complete test suite was executed again. All nine tests passed successfully, confirming that the new password validation requirements were implemented without breaking the existing functionality.
+
+This process demonstrates the TDD cycle of defining expected behaviour through tests, implementing the required functionality and then improving the code while using the test suite to detect regressions.
