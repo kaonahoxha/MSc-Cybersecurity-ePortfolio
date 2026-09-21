@@ -79,3 +79,17 @@ The original password validation only required a minimum length of 12 characters
 After refactoring, the complete test suite was executed again. All nine tests passed successfully, confirming that the new password validation requirements were implemented without breaking the existing functionality.
 
 This process demonstrates the TDD cycle of defining expected behaviour through tests, implementing the required functionality and then improving the code while using the test suite to detect regressions.
+
+### Reflection
+
+This exercise demonstrated how TDD can influence software design rather than simply being used to check completed code. Writing the tests first required me to define the expected behaviour of the User Management module before implementing it.
+
+The test suite also made refactoring safer because the existing tests could be rerun after each change to check that previous functionality had not been affected. The exercise also reinforced the relationship between secure coding and testing, as security requirements such as password validation, password hashing and authentication behaviour can be expressed and verified through tests.
+
+For a larger production system, I would extend the design with persistent database storage, role-based authorisation, authentication rate limiting and more extensive security testing.
+
+### References
+
+Chow, J. (2024) *Software Architecture with Kotlin: Combine Various Architectural Styles to Create Sustainable and Scalable Software Solutions*. Birmingham: Packt Publishing.
+
+Tibi, A. (2022) *Pragmatic Test-Driven Development in C# and .NET: Write Loosely Coupled, Documented, and High-Quality Code with DDD Using Familiar Tools and Libraries*. Birmingham: Packt Publishing.
