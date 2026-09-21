@@ -93,3 +93,20 @@ For a larger production system, I would extend the design with persistent databa
 Chow, J. (2024) *Software Architecture with Kotlin: Combine Various Architectural Styles to Create Sustainable and Scalable Software Solutions*. Birmingham: Packt Publishing.
 
 Tibi, A. (2022) *Pragmatic Test-Driven Development in C# and .NET: Write Loosely Coupled, Documented, and High-Quality Code with DDD Using Familiar Tools and Libraries*. Birmingham: Packt Publishing.
+
+### Reflection
+
+This exercise demonstrated how TDD can influence software design rather than simply being used to check completed code. Writing the tests first required me to define the expected behaviour of the User Management module before implementing it.
+
+The test suite also made refactoring safer because the existing tests could be rerun after each change to check that previous functionality had not been affected. The exercise also reinforced the relationship between secure coding and testing, as security requirements such as password validation, password hashing and authentication behaviour can be expressed and verified through tests.
+
+For a larger production system, I would extend the design with persistent database storage, role-based authorisation, authentication rate limiting and more extensive security testing.
+
+### Test Results
+
+The final test suite successfully passed all nine unit tests.
+
+![Unit 10 TDD Test Results](unit10_test_results.png)
+
+<img width="1440" height="900" alt="Screenshot 2026-09-21 at 22 49 16" src="https://github.com/user-attachments/assets/9712fd39-61a9-4139-805b-c99b6faf005b" />
+
