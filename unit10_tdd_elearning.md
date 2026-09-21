@@ -11,3 +11,29 @@ This architecture provides clear separation of responsibilities. The Presentatio
 I selected this approach because separating responsibilities improves maintainability and allows individual parts of the application to be modified with less impact on the rest of the system. It also supports security by preventing the presentation layer from directly accessing stored user and course data.
 
 A microservices architecture could provide greater independent scalability for a much larger platform, but it would also introduce additional complexity in deployment, communication and security. For the scope of this system, layered architecture provides an appropriate balance between scalability, maintainability and security (Chow, 2024).
+
+### High-Level Architecture
+
+The platform is divided into three layers:
+
+Presentation Layer  
+↓  
+- Student Interface
+- Instructor Interface
+- Administrator Interface
+
+Business Logic Layer  
+↓  
+- User Management
+- Course Management
+- Enrolment Management
+- Authentication
+
+Data Access Layer  
+↓  
+- User Repository
+- Course Repository
+- Enrolment Repository
+- Database
+
+This separation ensures that users interact with the system through the presentation layer rather than accessing stored data directly. Business rules and security controls are handled within the business logic layer, while database operations remain isolated within the data access layer.
