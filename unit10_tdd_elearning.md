@@ -37,3 +37,16 @@ Data Access Layer
 - Database
 
 This separation ensures that users interact with the system through the presentation layer rather than accessing stored data directly. Business rules and security controls are handled within the business logic layer, while database operations remain isolated within the data access layer.
+
+### Security Considerations
+
+Security is particularly important because the platform handles user credentials, personal information and course data. The design will include the following controls:
+
+- **Authentication:** Users must authenticate before accessing protected functionality. Different roles, such as student, instructor and administrator, should only access functions appropriate to their role.
+- **Password Security:** Passwords should never be stored in plaintext. A secure password-hashing algorithm should be used before credentials are stored.
+- **Input Validation:** User input should be validated before processing or storage to reduce the risk of invalid or malicious data entering the system.
+- **Access Control:** Authorisation checks should ensure that authenticated users cannot perform actions outside their permitted role.
+- **Data Protection:** Sensitive information should be protected during transmission and when stored.
+- **Error Handling:** Errors should be handled without exposing sensitive internal information to users.
+
+These controls follow the secure coding principles considered earlier in the module and allow security responsibilities to remain separated from the presentation layer.
