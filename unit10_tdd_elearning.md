@@ -50,3 +50,22 @@ Security is particularly important because the platform handles user credentials
 - **Error Handling:** Errors should be handled without exposing sensitive internal information to users.
 
 These controls follow the secure coding principles considered earlier in the module and allow security responsibilities to remain separated from the presentation layer.
+
+## Task 2: Implementation and Test-Driven Development
+
+The User Management module was developed using Test-Driven Development (TDD). I created the unit tests before implementing the User and UserManager classes. The initial tests defined the expected behaviour for user registration, duplicate usernames, role validation, password validation and authentication.
+
+After defining the tests, I implemented the minimum functionality required to satisfy them. Passwords are not stored in plaintext. Instead, PBKDF2-HMAC with a unique random salt is used for password hashing, and secure comparison is used during authentication.
+
+## Task 3: Testing and Validation
+
+The completed implementation was tested using Python's unittest framework. Six unit tests were executed covering:
+
+- Valid user registration
+- Duplicate username rejection
+- Invalid role rejection
+- Weak password rejection
+- Successful authentication
+- Incorrect password authentication
+
+All six tests passed successfully.
