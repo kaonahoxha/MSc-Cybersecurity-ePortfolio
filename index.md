@@ -80,3 +80,25 @@ The implementation demonstrates how Credit Card, PayPal and Bank Transfer paymen
 ### Collaborative Discussion 2
 
 As part of the collaborative discussion, I analysed an initially tightly coupled payment processing system and considered how the Strategy Pattern could improve its design. The refactored approach separates payment-specific behaviour from the main processor, improving extensibility, maintainability and testability.
+
+---
+
+## Final AOODP e-Portfolio
+
+The later units brought the module concepts together through secure coding, testing, dependency management, design patterns, concurrency and architectural evaluation.
+
+### Unit 10 – Test-Driven Development
+- [TDD User Management](unit10_tdd_elearning.md)
+
+### Unit 11 – Dependency Injection and Mocking
+- [Dependency Injection and Mocking](unit11_dependency_injection.md)
+
+### Unit 12 – Capstone and Integrated Architecture
+- [Strategy Pattern](unit12_threat_strategy.md)
+- [Decorator Pattern](unit12_security_decorator.md)
+- [Visitor Pattern](unit12_security_visitor.md)
+- [Abstract Factory](unit12_ai_abstract_factory.md)
+- [Concurrency Stress Tests](test_unit12_stress.py)
+- [Integrated Architecture](unit12_architecture.md)
+- [Requirements–Design–Test Traceability](unit12_traceability.md)
+- [Final e-Portfolio Evidence](unit12_eportfolio.md)
