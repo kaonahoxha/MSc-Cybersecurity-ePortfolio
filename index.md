@@ -12,41 +12,117 @@ This module examines qualitative and quantitative risk assessment, threat modell
 
 - [Security and Risk Management module portfolio](security-risk-management.md)
 
+---
 
-### Advanced Object-Oriented Design and Programming
+# Advanced Object-Oriented Design and Programming
 
-This module explores advanced object-oriented programming principles and their application to the design of scalable, maintainable and secure software systems.
+This module explores advanced object-oriented programming principles and their application to the design of scalable, maintainable, testable and secure software systems.
 
-**Unit 1 – Introduction and Recap of Object-Oriented Programming**
+## Unit 1 – Introduction and Recap of Object-Oriented Programming
 
-Unit 1 revisits the core principles of object-oriented programming, including inheritance, polymorphism, abstraction and encapsulation. It also covers classes, objects, constructors, destructors and access control, providing a foundation for more advanced topics later in the module.
+Unit 1 revisited inheritance, polymorphism, abstraction, encapsulation, classes, objects, constructors, destructors and access control.
 
-### Unit 1 Programming Exercises
+### Programming Exercises
 
-- [Task 1 – Basic Class Hierarchy (Inheritance)](unit1_task1.py)
-- [Task 2 – Polymorphism with Methods](unit1_task2.py)
-- [Task 3 – Encapsulation with Access Control](unit1_task3.py)
-- [Task 4 – Abstraction with Base Class](unit1_task4.py)
+- [Task 1 – Basic Class Hierarchy](unit1_task1.py)
+- [Task 2 – Polymorphism](unit1_task2.py)
+- [Task 3 – Encapsulation](unit1_task3.py)
+- [Task 4 – Abstraction](unit1_task4.py)
 - [Task 5 – Constructor and Destructor](unit1_task5.py)
 
-## Unit 2 – SOLID Principles of Object-Oriented Design
+## Unit 2 – SOLID Principles
 
-Unit 2 explores the five SOLID principles of object-oriented design: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion. These principles support the development of maintainable, scalable and adaptable software systems.
+Unit 2 explored the Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion principles and their role in maintainable and adaptable OO systems.
 
-### Unit 2 Formative Activity
-
-The formative activity involved refactoring an online shopping system to apply the SOLID principles and improve the structure and maintainability of the code.
+### Practical Evidence
 
 - [SOLID Online Shopping System](unit2_solid_shopping_system.py)
 
-## Unit 3 – Design Patterns I: Creational Patterns
+## Unit 3 – Creational Design Patterns
 
-Unit 3 introduces creational design patterns and their role in creating flexible and maintainable object-oriented software. The unit covers Singleton, Factory Method, Builder, Prototype and Abstract Factory patterns.
+Unit 3 introduced Singleton, Factory Method, Builder, Prototype and Abstract Factory patterns.
 
-### Unit 3 Formative Activity
+### Practical Evidence
 
-The formative activity involved implementing the Factory Method Pattern for a car manufacturing system. The solution uses abstract classes and concrete factories to create Sedan, SUV and Hatchback objects without directly specifying their concrete classes in the client code.
+- [Factory Method Car Manufacturing System](unit3_factory_method.py)
 
+## Unit 4 – Structural Design Patterns
+
+Unit 4 explored Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweight patterns.
+
+### Practical Evidence
+
+- [Decorator Pattern – Coffee Ordering System](unit4_decorator_pattern.py)
+
+## Unit 5 – Behavioural Design Patterns
+
+Unit 5 explored Strategy, Observer, Chain of Responsibility, Template Method, Command and State patterns.
+
+### Practical Evidence
+
+- [Strategy Pattern – Payment Processing System](unit5_strategy_pattern.py)
+
+## Unit 6 – Concurrency and Parallelism
+
+Unit 6 explored threads, shared mutable state, race conditions, synchronisation and deadlock prevention. The practical work developed a thread-safe banking system using per-account locking and deterministic lock ordering for transfers.
+
+### Practical Evidence
+
+- [Thread-Safe Banking System](bank_account.py)
+- [Banking System Tests](test_bank_account.py)
+- [Concurrency Stress Tests](test_unit12_stress.py)
+
+---
+
+# Final AOODP e-Portfolio Evidence
+
+The later portfolio work brings together secure coding, concurrency, testing, dependency management, advanced design patterns and architectural evaluation.
+
+## Unit 10 – Test-Driven Development
+
+The secure user-management artefact applies TDD to registration, authentication and password-policy requirements.
+
+- [TDD User Management](unit10_tdd_elearning.md)
+- [TDD Automated Tests](test_unit10_user_management.py)
+
+## Unit 11 – Dependency Injection and Mocking
+
+Dependency injection was used to separate user-management logic from an external notification dependency, enabling deterministic testing through mocking.
+
+- [Dependency Injection and Mocking](unit11_dependency_injection.md)
+- [DI and Mocking Tests](test_unit11_di.py)
+
+## Unit 12 – Capstone and Integrated Architecture
+
+Unit 12 integrates advanced design patterns, concurrency testing and architectural evaluation within cybersecurity-oriented examples.
+
+### Strategy Pattern
+- [Strategy Documentation](unit12_threat_strategy.md)
+- [Strategy Tests](test_unit12_threat_strategy.py)
+
+### Decorator Pattern
+- [Decorator Documentation](unit12_security_decorator.md)
+- [Decorator Tests](test_unit12_security_decorator.py)
+
+### Visitor Pattern
+- [Visitor Documentation](unit12_security_visitor.md)
+- [Visitor Tests](test_unit12_security_visitor.py)
+
+### Abstract Factory
+- [Abstract Factory Documentation](unit12_ai_abstract_factory.md)
+- [Abstract Factory Tests](test_unit12_ai_abstract_factory.py)
+
+### Concurrency, Architecture and Traceability
+- [Concurrency Stress Tests](test_unit12_stress.py)
+- [Integrated Architecture](unit12_architecture.md)
+- [Requirements–Design–Test Traceability](unit12_traceability.md)
+- [Final e-Portfolio Evidence](unit12_eportfolio.md)
+
+---
+
+## End of Module Assignment Evidence
+
+The repository contains the source code, automated tests, stress tests, architecture documentation and requirements–design–test traceability evidence referenced in my Advanced Object-Oriented Design and Programming End of Module Assignment.
 - [Factory Method Car Manufacturing System](unit3_factory_method.py)
 
 
