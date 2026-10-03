@@ -10,19 +10,19 @@ Welcome to my MSc Cybersecurity e-Portfolio. This portfolio documents my learnin
 
 This module examines qualitative and quantitative risk assessment, threat modelling, security standards, business continuity and disaster recovery.
 
-- [Security and Risk Management module portfolio](security-risk-management.md)
+- [Security and Risk Management Module Portfolio](security-risk-management.md)
 
 ---
 
 # Advanced Object-Oriented Design and Programming
 
-This module explores advanced object-oriented programming principles and their application to the design of scalable, maintainable, testable and secure software systems.
+This module developed my understanding of advanced object-oriented programming and its application to maintainable, secure, testable and scalable software systems. The portfolio includes practical programming exercises, automated testing, design-pattern implementations, concurrency work, dependency injection, architectural evaluation and requirements traceability.
 
 ## Unit 1 – Introduction and Recap of Object-Oriented Programming
 
-Unit 1 revisited inheritance, polymorphism, abstraction, encapsulation, classes, objects, constructors, destructors and access control.
+Unit 1 revisited the fundamental principles of object-oriented programming, including inheritance, polymorphism, abstraction and encapsulation, together with classes, objects, constructors, destructors and access control.
 
-### Programming Exercises
+### Practical Evidence
 
 - [Task 1 – Basic Class Hierarchy](unit1_task1.py)
 - [Task 2 – Polymorphism](unit1_task2.py)
@@ -30,9 +30,9 @@ Unit 1 revisited inheritance, polymorphism, abstraction, encapsulation, classes,
 - [Task 4 – Abstraction](unit1_task4.py)
 - [Task 5 – Constructor and Destructor](unit1_task5.py)
 
-## Unit 2 – SOLID Principles
+## Unit 2 – SOLID Principles of Object-Oriented Design
 
-Unit 2 explored the Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion principles and their role in maintainable and adaptable OO systems.
+Unit 2 explored the Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation and Dependency Inversion principles. The work demonstrated how responsibilities and dependencies can be structured to improve maintainability and extensibility.
 
 ### Practical Evidence
 
@@ -40,7 +40,7 @@ Unit 2 explored the Single Responsibility, Open/Closed, Liskov Substitution, Int
 
 ## Unit 3 – Creational Design Patterns
 
-Unit 3 introduced Singleton, Factory Method, Builder, Prototype and Abstract Factory patterns.
+Unit 3 introduced creational design patterns, including Singleton, Factory Method, Builder, Prototype and Abstract Factory. The practical work demonstrated how object creation can be separated from client code.
 
 ### Practical Evidence
 
@@ -48,7 +48,9 @@ Unit 3 introduced Singleton, Factory Method, Builder, Prototype and Abstract Fac
 
 ## Unit 4 – Structural Design Patterns
 
-Unit 4 explored Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweight patterns.
+Unit 4 explored Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweight patterns and their role in composing flexible object structures.
+
+The practical exercise applied the Decorator Pattern to extend behaviour dynamically without modifying the underlying component.
 
 ### Practical Evidence
 
@@ -58,123 +60,144 @@ Unit 4 explored Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweig
 
 Unit 5 explored Strategy, Observer, Chain of Responsibility, Template Method, Command and State patterns.
 
+The practical exercise applied Strategy to interchangeable payment behaviours, separating individual payment algorithms from the main processing context.
+
 ### Practical Evidence
 
 - [Strategy Pattern – Payment Processing System](unit5_strategy_pattern.py)
 
 ## Unit 6 – Concurrency and Parallelism
 
-Unit 6 explored threads, shared mutable state, race conditions, synchronisation and deadlock prevention. The practical work developed a thread-safe banking system using per-account locking and deterministic lock ordering for transfers.
+Unit 6 explored threads, processes, shared mutable state, race conditions, synchronisation and deadlock prevention.
+
+The banking artefact applied per-account locking to protect balance-changing operations and deterministic lock ordering to reduce circular-wait risk during transfers. Later stress testing extended this work to larger concurrent workloads.
 
 ### Practical Evidence
 
 - [Thread-Safe Banking System](bank_account.py)
-- [Banking System Tests](test_bank_account.py)
 - [Concurrency Stress Tests](test_unit12_stress.py)
 
----
+## Unit 8 – Refactoring and Code Smells
 
-# Final AOODP e-Portfolio Evidence
+Unit 8 developed my understanding of refactoring as controlled structural improvement rather than simply increasing abstraction. The unit considered code smells, maintainability, magic numbers, long methods and the use of patterns such as Strategy where genuine variation exists.
 
-The later portfolio work brings together secure coding, concurrency, testing, dependency management, advanced design patterns and architectural evaluation.
+The principles from this unit informed the later capstone work, particularly the evaluation of whether additional abstraction was justified by a real source of change.
 
-## Unit 10 – Test-Driven Development
+## Unit 9 – Object-Oriented Software Architecture
 
-The secure user-management artefact applies TDD to registration, authentication and password-policy requirements.
+Unit 9 extended object-oriented reasoning from individual classes to software architecture. The unit considered layered architectures, monolithic and distributed systems, dependency management, data access and the trade-offs associated with architectural complexity.
 
-- [TDD User Management](unit10_tdd_elearning.md)
+These concepts informed the integrated architecture developed in the final portfolio and the evaluation of scalability, maintainability and dependency boundaries.
+
+## Unit 10 – Test-Driven Development and Unit Testing
+
+Unit 10 applied the Red-Green-Refactor cycle to secure user-management functionality. Tests were used to specify and verify registration, authentication and password-policy behaviour while the implementation incorporated defensive validation and secure password handling.
+
+### Practical Evidence
+
+- [TDD User Management Documentation](unit10_tdd_elearning.md)
+- [User Management Implementation](unit10_user_management.py)
 - [TDD Automated Tests](test_unit10_user_management.py)
 
-## Unit 11 – Dependency Injection and Mocking
+## Unit 11 – Dependency Injection and Inversion of Control
 
-Dependency injection was used to separate user-management logic from an external notification dependency, enabling deterministic testing through mocking.
+Unit 11 explored dependency injection and inversion of control as mechanisms for reducing coupling and improving testability.
 
-- [Dependency Injection and Mocking](unit11_dependency_injection.md)
+Constructor injection was used to supply a notification dependency to the user-management component. Mocking then allowed the expected interaction to be tested without contacting an external notification provider.
+
+### Practical Evidence
+
+- [Dependency Injection Documentation](unit11_dependency_injection.md)
+- [Dependency Injection Implementation](unit11_di.py)
 - [DI and Mocking Tests](test_unit11_di.py)
 
-## Unit 12 – Capstone and Integrated Architecture
+---
 
-Unit 12 integrates advanced design patterns, concurrency testing and architectural evaluation within cybersecurity-oriented examples.
+# Unit 12 – Capstone and Final e-Portfolio
 
-### Strategy Pattern
+Unit 12 brought together the module learning through cybersecurity-oriented implementations of advanced design patterns, concurrency testing, architectural evaluation and requirements traceability.
+
+## Strategy Pattern – Threat Analysis
+
+The Strategy Pattern was applied to interchangeable cybersecurity threat-scoring algorithms. This demonstrates runtime behavioural flexibility while keeping the analysis context independent of individual scoring policies.
+
+### Evidence
+
 - [Strategy Documentation](unit12_threat_strategy.md)
+- [Strategy Implementation](unit12_threat_strategy.py)
 - [Strategy Tests](test_unit12_threat_strategy.py)
 
-### Decorator Pattern
+## Decorator Pattern – Composable Security Controls
+
+The Decorator Pattern was used to compose access-control and audit-logging behaviour around a core security analyser while preserving the underlying interface.
+
+### Evidence
+
 - [Decorator Documentation](unit12_security_decorator.md)
+- [Decorator Implementation](unit12_security_decorator.py)
 - [Decorator Tests](test_unit12_security_decorator.py)
 
-### Visitor Pattern
+## Visitor Pattern – Security Auditing
+
+The Visitor Pattern separates security-audit operations from the assets being inspected, demonstrating the trade-off between extending operations and extending the object structure.
+
+### Evidence
+
 - [Visitor Documentation](unit12_security_visitor.md)
+- [Visitor Implementation](unit12_security_visitor.py)
 - [Visitor Tests](test_unit12_security_visitor.py)
 
-### Abstract Factory
+## Abstract Factory – Replaceable Security-Service Families
+
+The Abstract Factory implementation models related local and cloud security-service families. It demonstrates how client code can depend on stable abstractions rather than provider-specific implementations.
+
+The exercise also provides architectural context for future AI or data-science integrations in which external providers may need to be replaced without changing consuming application logic.
+
+### Evidence
+
 - [Abstract Factory Documentation](unit12_ai_abstract_factory.md)
+- [Abstract Factory Implementation](unit12_ai_abstract_factory.py)
 - [Abstract Factory Tests](test_unit12_ai_abstract_factory.py)
 
-### Concurrency, Architecture and Traceability
+## Concurrency Stress Testing
+
+The Unit 6 banking work was extended with larger concurrent workloads to provide stronger evidence of thread-safe behaviour under the tested conditions.
+
+- [Thread-Safe Banking System](bank_account.py)
 - [Concurrency Stress Tests](test_unit12_stress.py)
+
+## Integrated Architecture
+
+The final architecture considers how Strategy, Decorator, Visitor and Abstract Factory can coexist because each addresses a different source of variation. The architecture is evaluated in terms of extensibility, maintainability, testability, security and the risk of unnecessary abstraction.
+
 - [Integrated Architecture](unit12_architecture.md)
+
+## Requirements–Design–Test Traceability
+
+A traceability artefact connects requirements with corresponding design decisions and testing evidence, making the relationship between intended behaviour, implementation and verification explicit.
+
 - [Requirements–Design–Test Traceability](unit12_traceability.md)
-- [Final e-Portfolio Evidence](unit12_eportfolio.md)
+
+## Final e-Portfolio Evidence
+
+The consolidated e-Portfolio documents the final artefacts, their purpose, implementation evidence and critical evaluation.
+
+- [Final Unit 12 e-Portfolio](unit12_eportfolio.md)
 
 ---
 
-## End of Module Assignment Evidence
+# End of Module Assignment Evidence
 
-The repository contains the source code, automated tests, stress tests, architecture documentation and requirements–design–test traceability evidence referenced in my Advanced Object-Oriented Design and Programming End of Module Assignment.
-- [Factory Method Car Manufacturing System](unit3_factory_method.py)
+This repository provides the supporting evidence referenced in my Advanced Object-Oriented Design and Programming End of Module Assignment, including:
 
+- object-oriented programming exercises;
+- SOLID and design-pattern implementations;
+- thread-safe banking and concurrency stress testing;
+- TDD and automated unit testing;
+- dependency injection and mocking;
+- Strategy, Decorator, Visitor and Abstract Factory implementations;
+- cybersecurity-oriented architectural integration;
+- requirements–design–test traceability; and
+- critical documentation accompanying the final e-Portfolio.
 
-## Unit 4 – Design Patterns II: Structural Patterns
-
-Unit 4 focused on structural design patterns and how they can be used to organise classes and objects into flexible and maintainable software structures. I explored the Adapter, Bridge, Composite, Decorator, Facade, Proxy and Flyweight patterns.
-
-### Unit 4 Practical Exercise
-
-For the practical activity, I implemented the Decorator Pattern using a simple coffee ordering system. The program demonstrates how additional features, such as milk and sugar, can be added dynamically without changing the original coffee class.
-
-- [Decorator Pattern – Coffee Ordering System](unit4_decorator_pattern.py)
-
-### Collaborative Discussion
-
-I also explored the Adapter, Bridge and Composite patterns through practical scenarios and Python examples as part of the collaborative discussion.
-
-
-## Unit 5 – Design Patterns III: Behavioural Patterns
-
-Unit 5 focused on behavioural design patterns and how they manage communication and interaction between objects. The unit covered Strategy, Observer, Chain of Responsibility, Template Method, Command and State patterns.
-
-### Unit 5 Practical Exercise
-
-For the practical activity, I implemented the Strategy Pattern using a payment processing system. Different payment methods were separated into individual strategies, allowing the payment behaviour to be changed without modifying the main PaymentProcessor class.
-
-The implementation demonstrates how Credit Card, PayPal and Bank Transfer payment strategies can be used interchangeably at runtime, making the system easier to extend and maintain.
-
-- [Strategy Pattern – Payment Processing System](https://github.com/kaonahoxha/MSc-Cybersecurity-ePortfolio/blob/main/unit5_strategy_pattern.py)
-
-### Collaborative Discussion 2
-
-As part of the collaborative discussion, I analysed an initially tightly coupled payment processing system and considered how the Strategy Pattern could improve its design. The refactored approach separates payment-specific behaviour from the main processor, improving extensibility, maintainability and testability.
-
----
-
-## Final AOODP e-Portfolio
-
-The later units brought the module concepts together through secure coding, testing, dependency management, design patterns, concurrency and architectural evaluation.
-
-### Unit 10 – Test-Driven Development
-- [TDD User Management](unit10_tdd_elearning.md)
-
-### Unit 11 – Dependency Injection and Mocking
-- [Dependency Injection and Mocking](unit11_dependency_injection.md)
-
-### Unit 12 – Capstone and Integrated Architecture
-- [Strategy Pattern](unit12_threat_strategy.md)
-- [Decorator Pattern](unit12_security_decorator.md)
-- [Visitor Pattern](unit12_security_visitor.md)
-- [Abstract Factory](unit12_ai_abstract_factory.md)
-- [Concurrency Stress Tests](test_unit12_stress.py)
-- [Integrated Architecture](unit12_architecture.md)
-- [Requirements–Design–Test Traceability](unit12_traceability.md)
-- [Final e-Portfolio Evidence](unit12_eportfolio.md)
+The artefacts represent academic and practical learning evidence rather than production-ready systems.
