@@ -41,6 +41,7 @@ This folder contains the learning evidence referenced in my Advanced Object-Orie
 
 ### Strategy Pattern
 - [Strategy Documentation](Unit-12/unit12_threat_strategy.md)
+- [Strategy Implementation](Unit-12/unit12_threat_strategy.py)
 - [Strategy Tests](Unit-12/test_unit12_threat_strategy.py)
 
 ### Decorator Pattern
