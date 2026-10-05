@@ -127,6 +127,19 @@ My analysis recommends a phased transformation beginning with click-and-collect,
 | Teamwork and leadership | Group 3 planning and report integration | Setting internal deadlines, coordinating contributions and maintaining consistency |
 | Digital literacy | GitHub e-portfolio and threat-modelling resources | Organising evidence and presenting development progressively |
 
+
+## Unit 11 – Individual Executive Summary
+
+The individual project evaluated how international sourcing and automated warehouses could affect Pampered Pets’ product quality and availability. I developed a 10,000-trial Monte Carlo model using triangular distributions because the case provided no historical loss data. The model distinguishes hazard occurrence from escalation into material harm and compares inherent exposure with residual exposure after controls.
+
+This work strengthened my understanding that quantitative outputs are decision aids rather than objective forecasts. The most valuable result was not a single percentage, but identifying supplier failure, demand error and logistics disruption as the main drivers of availability risk. I also designed an active-active AWS disaster-recovery architecture for the required RTO and RPO of under one minute, while critically considering replication consistency, failover timing, third-party dependencies and vendor lock-in.
+
+The project reinforced the importance of connecting quantitative modelling with product safety, UK GDPR, PCI DSS, business continuity and explicit management risk tolerances.
+
+**Assessment artefacts:**
+
+- [Executive Summary](Kaona_Hoxha_Pampered_Pets_Executive_Summary.docx)
+- [Quantitative Risk Model](Pampered_Pets_Quantitative_Risk_Model.xlsx)
 ## Development Action Plan
 
 - Apply a consistent likelihood-and-impact scale across the team report and justify all ratings.
