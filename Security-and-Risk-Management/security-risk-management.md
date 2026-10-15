@@ -21,7 +21,7 @@ This page records my development across the Security and Risk Management module.
 | 9 | Integrating discussion learning with business continuity and recovery objectives | [Collaborative Discussion 2 summary post](evidence/Unit_9_CLD2_Summary_Post.jpg) |
 | 10 | Comparing DR strategies against explicit RTO and RPO requirements | DR design-review artefact below |
 | 11 | Building and evaluating a quantitative risk model and DR recommendation | [Executive summary](Kaona_Hoxha_Pampered_Pets_Executive_Summary.docx), [risk model](Pampered_Pets_Quantitative_Risk_Model.xlsx) and [tutor feedback](evidence/Unit_11_Tutor_Feedback.md) |
-| 12 | Integrating evidence into a critical account of development | Final reflection to be completed before submission |
+| 12 | Integrating evidence into a critical account of development | Final critical reflection below |
 
 ## Unit Learning and Artefacts
 
@@ -156,9 +156,41 @@ The project received **75%**. The tutor credited the occurrence/escalation disti
 - [Monte Carlo workbook](Pampered_Pets_Quantitative_Risk_Model.xlsx)
 - [Tutor feedback and mark](evidence/Unit_11_Tutor_Feedback.md)
 
-### Unit 12 – Consolidation
+### Unit 12: Final Critical Reflection
 
-The final task is to convert the evidence above into a critical reflection rather than repeat the unit summaries. The reflection will examine how my approach changed, where my leadership helped or constrained the team, how tutor and peer feedback altered later decisions, and what I will do differently in future risk work.
+**Reflective word count: 973**
+
+I use Rolfe, Freshwater and Jasper’s (2001) reflective questions, What? So what? Now what?, to examine how the module changed my judgement.
+
+#### What?
+
+At the beginning, I viewed risk management primarily as identifying threats, estimating likelihood and impact, and selecting controls. The first collaborative discussion challenged this technical interpretation. Analysis of digital evidence in human rights investigations showed that reliable data can still support an unreliable decision when context is missing, affected communities are excluded or assumptions cannot be challenged. Hancock et al. (2024) similarly show that digital evidence may lose context needed for interpretation. I therefore began to understand risk as a judgement about uncertain consequences, made by people and institutions, rather than a property that can simply be measured.
+
+This understanding influenced the Pampered Pets group project. My allocated responsibility was the digital transformation assessment, but I also became project lead and final editor. When communication slowed, I contacted members, proposed deadlines, managed the shared document and integrated four contributions. The draft reached 2,023 words against a 1,000 word limit. I reduced it to 964 words, reconciled conflicting recommendations, standardised the methodology and references, and submitted the report. It received 77%.
+
+The individual project required different reasoning. I constructed a 10,000 trial Monte Carlo model of quality and availability risk, separating hazard occurrence from escalation into material harm. I linked the results to conditional expansion and disaster recovery. The project received 75%.
+
+#### So what?
+
+The group project showed that critical analysis is more than producing a longer risk list. Its strongest feature was questioning the unsupported claims of 50% growth, 24% savings and 33% customer loss. We examined their interaction. Growth could exceed the capacity of four employees, while cheaper international sourcing could damage traceability, resilience and the local identity intended to attract customers. This reflected Aven and Thekdi’s (2025) position that a risk estimate must be considered alongside uncertainty and the strength of the knowledge on which it depends.
+
+Tutor feedback identified a gap between sound reasoning and demonstrable reasoning. Our likelihood and impact scale was not fully defined, while controls lacked consistent owners, timescales and residual risks. The comparison between digitalisation and the status quo was not presented transparently. I had prioritised concision but treated presentation as separate from analysis. I now recognise that structure is part of the argument. If a reader cannot trace a conclusion from evidence through assessment to treatment, it is less accountable, regardless of whether it appears reasonable.
+
+The project also exposed a weakness in my leadership. Limited communication frustrated me, and I responded by assuming more responsibility. This protected the submission but made me the group’s single point of failure. It replicated the concentration risk identified in Pampered Pets, where knowledge and decisions depended excessively on the owner. My contribution achieved the immediate outcome but did not develop shared ownership. A stronger approach would have established a common template, rating definitions and review points before drafting began. Leadership should improve collective control over quality, not compensate for weaknesses at the end.
+
+The individual project challenged another assumption: that quantitative complexity necessarily produces stronger work. Monte Carlo simulation can represent uncertainty by propagating ranges rather than relying on one expected value (Eckstein and Riedmueller, 2002). However, the model’s control effectiveness estimates remained largely judgement based. A shared stress factor represented some dependence, but could not capture all relationships between suppliers, customs, warehouse automation, cloud services and demand. The model therefore generated precise outputs from evidence that was still limited. Comparing favourable, central and adverse assumptions would have shown whether the recommendation remained credible when controls performed less effectively.
+
+The workbook created a further issue. The report referred to a fixed seed, but the simulation used unseeded `RANDARRAY`. Some sensitivity and convergence outputs remained static during recalculation, and minor differences emerged between workbook and report. These were not simply technical imperfections. They weakened reproducibility and showed that the model could create risk for the decision it supported. Academic integrity therefore requires consistency between the written claim, calculation and behaviour of the supporting artefact.
+
+My disaster recovery analysis produced a related insight. I initially concentrated on selecting an architecture capable of an RTO and RPO below one minute. I later recognised that active active architecture only indicates potential capability. It does not prove recovery. The service has recovered only when identity, payment, stock reservation, warehouse instructions and customer confirmation operate successfully following failure. Sutton (2021) supports this business focused interpretation of continuity. Recovery objectives must therefore be demonstrated through timed testing of the complete service, not inferred from a provider’s technical features.
+
+#### Now what?
+
+In future assessments, I will begin by defining the decision, risk appetite, evidence requirements and criteria for acceptance. Qualitative assessments will use defined scales and a register connecting assets, threats, vulnerabilities, consequences, controls, owners, timescales and residual risk. Quantitative models will distinguish observed evidence from structured judgement, document dependencies and compare alternative assumptions about control effectiveness. Each reported result will be reconciled against a frozen and clearly identified model version before submission.
+
+My approach to teamwork will also change. I will agree templates, responsibilities, internal deadlines and review points at the beginning, record decisions as they occur and address nonparticipation earlier. I will retain responsibility for quality without allowing assurance to depend on one person. This lesson applies directly to my banking technology role, where effective incident management depends on evidence, ownership and controlled escalation between users, support functions and specialist teams.
+
+The most important development is therefore a change in how I understand professional judgement. Frameworks, scores, simulations and cloud services do not provide answers independently. Their value depends on the question being asked, the quality of the evidence, the assumptions they expose and the consequences they omit. My future work must make those limitations visible so that decisions remain proportionate, testable and open to challenge.
 
 ## Individual Contribution and Collaboration
 
@@ -229,6 +261,8 @@ Kumar, A. (2024) *Cloud Vendor Lock-In: Identify, Strategies and Mitigate*. Semi
 Office of the United Nations High Commissioner for Human Rights (OHCHR) (2021) *The right to privacy in the digital age*. A/HRC/48/31. Geneva: United Nations.
 
 Renn, O., Beier, G. and Schweizer, P.-J. (2021) ‘The opportunities and risks of digitalisation for sustainable development: a systemic perspective’, *GAIA – Ecological Perspectives for Science and Society*, 30(1), pp. 23–28. doi: 10.14512/gaia.30.1.6.
+
+Rolfe, G., Freshwater, D. and Jasper, M. (2001) *Critical Reflection in Nursing and the Helping Professions: A User’s Guide*. Basingstoke: Palgrave Macmillan.
 
 Selbst, A.D., Boyd, D., Friedler, S.A., Venkatasubramanian, S. and Vertesi, J. (2019) ‘Fairness and abstraction in sociotechnical systems’, in *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 59–68. doi: 10.1145/3287560.3287598.
 
