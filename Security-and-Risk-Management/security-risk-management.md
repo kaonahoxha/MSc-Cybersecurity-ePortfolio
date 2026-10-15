@@ -206,7 +206,7 @@ Andrade, E., Nogueira, B., Matos, R., Callou, G. and Maciel, P. (2017) ‘Availa
 
 Aven, T. and Thekdi, S. (2025) *Risk Science*. 3rd edn. Abingdon: Routledge.
 
-Corbari, G. (2024) *Mission Thread Analysis: Establishing a Common Framework in a Multi-discipline Domain to Enhance Defensive Cyberspace Operations*.
+Corbari, G.I., Khatod, N., Popiak, J.F. and Sinclair, P. (2024) ‘Mission thread analysis: Establishing a common framework in a multi-discipline domain to enhance defensive cyberspace operations’, *The Cyber Defense Review*, 9(1), pp. 37–54. doi: 10.55682/cdr/vtrm-kp8r.
 
 Data Protection Commission (2019) *Annual Report 2019*. Dublin: Data Protection Commission.
 
