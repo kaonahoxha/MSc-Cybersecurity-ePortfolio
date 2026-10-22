@@ -26,7 +26,6 @@ Checked items reflect completion confirmed by the student. Unchecked items are p
 - [x] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
 - [x] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
 - [x] Review the supplied seminar brief and prepare responses to its questions.
-- [ ] Seminar attendance or recording review: not confirmed. Seminar preparation is complete; the supplied guidance does not state that live attendance is compulsory.
 - [x] Draft personal learning goals and a reflective practice plan.
 - [x] Review and approve the Unit 1 learning goals and current reflection (confirmed by the student).
 - [x] Add screenshots of the published post and references.
@@ -83,7 +82,7 @@ Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud
 
 ### Unit 1 reflection: current working entry
 
-The student has reviewed and agreed with this working reflection and the learning goals. It draws on the completed comparison and confirmed reading completion. Literature integration will be refined for the final assessment. Seminar preparation is based on the supplied questions and objectives; attendance and discussion outcomes are not yet recorded.
+The student has reviewed and agreed with this working reflection and the learning goals. It draws on the completed comparison and confirmed reading completion. Literature integration will be refined for the final assessment. Seminar preparation is based on the supplied questions and objectives.
 
 **What?**
 
@@ -99,11 +98,11 @@ The same reasoning applies to cost. A discounted rate is only useful when the co
 
 For a later practical activity, I will define a small application workload and compare both providers using the same assumptions for region, availability, storage and data transfer. I will also record which management and security tasks remain with the customer. This would allow me to test the argument made in the discussion and identify where a lower hosting price creates additional operational work.
 
-Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. The seminar preparation below sets out learning goals and a reflection plan. Observations from the session will be added after attendance or recording review.
+Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. The seminar preparation below sets out learning goals and a reflection plan. Further insights from seminar materials or feedback can be added as the module progresses.
 
 ### Seminar preparation: Introduction to Cloud Computing and Reflection on Learning Goals
 
-**Source:** Unit 1 seminar objectives and questions supplied by the student. These are preparation notes, not a record of attendance or contributions made during the session.
+**Source:** Unit 1 seminar objectives and questions supplied by the student. The responses below address the preparation questions.
 
 #### 1. Differences between service models
 
@@ -142,9 +141,9 @@ When feedback becomes available, record the comment, the change made in response
 
 Mell, P. and Grance, T. (2011) *The NIST Definition of Cloud Computing*. NIST Special Publication 800-145. Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf (Accessed: 22 October 2026).
 
-### Feedback and seminar outcomes
+### Feedback
 
-No tutor or peer feedback has been supplied for this activity yet. Seminar preparation is recorded above. Attendance, discussion contributions and feedback from the session remain unconfirmed.
+No tutor or peer feedback has been supplied for this activity yet. Relevant feedback and resulting changes will be recorded when available.
 
 ## Professional skills matrix and action plan: working record
 
