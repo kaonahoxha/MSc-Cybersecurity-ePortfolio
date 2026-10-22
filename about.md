@@ -2,12 +2,8 @@
 
 [Portfolio home](index.md)
 
-This portfolio records learning through computing and cybersecurity coursework, practical activities and reflection. Its module sections bring together artefacts, feedback, skills development and plans for further learning.
+My name is Kaona Hoxha. I completed a bachelor's degree in Computer Science at the University of Westminster and am currently studying for an MSc in Cyber Security at the University of Essex Online.
 
-## Academic and professional background
+My interests include software development, cybersecurity and cloud technologies. I want to develop a stronger understanding of how applications and infrastructure can be designed, operated and secured, and how technical decisions affect an organisation's everyday work.
 
-Personal biography to be added after review.
-
-## Learning interests
-
-The Cloud Operations and Management section explores cloud service models, infrastructure choices, operational responsibilities and cost evaluation.
+This portfolio records my progress through the MSc. Each module brings together practical work, discussions, feedback and reflection, showing both what I have completed and where I need to develop further.
