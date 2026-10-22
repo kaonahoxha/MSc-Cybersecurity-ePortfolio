@@ -22,13 +22,13 @@ Checked items reflect completion confirmed by the student. Unchecked items are p
 - [x] Prepare the provider comparison.
 - [x] Publish one formative forum post (completion confirmed on 22 October 2026).
 - [x] Preserve the comparison text in this portfolio.
-- [ ] Watch the introductory lecturecast.
+- [x] Watch the introductory lecturecast (completion confirmed by the student).
 - [x] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
 - [x] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
 - [x] Review the supplied seminar brief and prepare responses to its questions.
-- [ ] Attend the seminar or review its recording, if available (attendance not yet confirmed).
+- [ ] Seminar attendance or recording review: not confirmed. Seminar preparation is complete; the supplied guidance does not state that live attendance is compulsory.
 - [x] Draft personal learning goals and a reflective practice plan.
-- [ ] Confirm personal learning goals and complete the Unit 1 reflection.
+- [x] Review and approve the Unit 1 learning goals and current reflection (confirmed by the student).
 - [x] Add screenshots of the published post and references.
 - [ ] Record any feedback received and the response to it.
 
@@ -81,9 +81,9 @@ Google Cloud (n.d.c) *Committed use discounts*. Available at: https://docs.cloud
 
 Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud.google.com/compute/docs/sustained-use-discounts (Accessed: 22 October 2026).
 
-### Unit 1 reflection: draft for student review
+### Unit 1 reflection: current working entry
 
-This draft draws on the completed comparison and confirmed reading completion. Personal observations should be reviewed before it is treated as a final reflection. Seminar preparation is based on the supplied questions and objectives; attendance and discussion outcomes are not yet recorded.
+The student has reviewed and agreed with this working reflection and the learning goals. It draws on the completed comparison and confirmed reading completion. Literature integration will be refined for the final assessment. Seminar preparation is based on the supplied questions and objectives; attendance and discussion outcomes are not yet recorded.
 
 **What?**
 
@@ -125,7 +125,7 @@ These are applications of the service-model distinction, not universal recommend
 
 #### 3. Initial personal learning goals
 
-Proposed goals for review:
+Learning goals reviewed and agreed by the student:
 
 - By the end of Unit 1, explain IaaS, PaaS and SaaS using one example each and identify the main customer responsibilities.
 - During the module, develop and document a small cloud deployment, including configuration choices, security considerations and limitations, where practical activities allow.
@@ -155,7 +155,7 @@ This initial record will be transferred into the university's template once supp
 | Cloud service evaluation | Unit 1 provider comparison | Conceptual evaluation; no practical deployment | Explain responsibility boundaries for one IaaS and one PaaS example | End of Unit 1 |
 | Cloud cost analysis | Discussion of pricing trade-offs | No equivalent workload calculation | Compare a defined workload using both provider calculators and record assumptions | Next relevant practical activity |
 | Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | Required reading completed; identify and cite a specific argument that supports or challenges the comparison | Unit 1 reflection |
-| Reflective practice | Draft reflection above | Personal observations and literature integration await review | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
+| Reflective practice | Draft reflection above | Working reflection reviewed by the student; literature integration remains to be refined | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
 
 ## Team and tutor meeting record
 
