@@ -25,7 +25,9 @@ Checked items reflect completion confirmed by the student. Unchecked items are p
 - [ ] Watch the introductory lecturecast.
 - [x] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
 - [x] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
-- [ ] Attend the seminar or review its available materials (attendance rules not specified).
+- [x] Review the supplied seminar brief and prepare responses to its questions.
+- [ ] Attend the seminar or review its recording, if available (attendance not yet confirmed).
+- [x] Draft personal learning goals and a reflective practice plan.
 - [ ] Confirm personal learning goals and complete the Unit 1 reflection.
 - [ ] Add a direct link or screenshot of the published post.
 - [ ] Record any feedback received and the response to it.
@@ -71,7 +73,7 @@ Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud
 
 ### Unit 1 reflection: draft for student review
 
-This draft draws on the completed comparison and confirmed reading completion. Personal observations should be reviewed before it is treated as a final reflection. It does not attribute learning to an unseen seminar transcript.
+This draft draws on the completed comparison and confirmed reading completion. Personal observations should be reviewed before it is treated as a final reflection. Seminar preparation is based on the supplied questions and objectives; attendance and discussion outcomes are not yet recorded.
 
 **What?**
 
@@ -87,17 +89,52 @@ The same reasoning applies to cost. A discounted rate is only useful when the co
 
 For a later practical activity, I will define a small application workload and compare both providers using the same assumptions for region, availability, storage and data transfer. I will also record which management and security tasks remain with the customer. This would allow me to test the argument made in the discussion and identify where a lower hosting price creates additional operational work.
 
-Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. Seminar-specific observations will be added once its full material is available for review.
+Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. The seminar preparation below sets out learning goals and a reflection plan. Observations from the session will be added after attendance or recording review.
 
-### Proposed learning goals: awaiting student review
+### Seminar preparation: Introduction to Cloud Computing and Reflection on Learning Goals
 
-- Explain how management and security responsibilities change between IaaS, PaaS and SaaS.
-- Justify a cloud-service choice using workload requirements and total operating cost.
-- Develop practical cloud skills relevant to a future cloud or DevOps role.
+**Source:** Unit 1 seminar objectives and questions supplied by the student. These are preparation notes, not a record of attendance or contributions made during the session.
 
-### Feedback and seminar notes
+#### 1. Differences between service models
 
-No tutor or peer feedback has been supplied for this activity yet. Seminar attendance, notes and learning have not yet been confirmed. Add dated notes, decisions, feedback and resulting changes as they occur.
+The distinction concerns the layers the customer manages (Mell and Grance, 2011).
+
+| Model | Customer's main control | Example | Possible application |
+|---|---|---|---|
+| IaaS | Operating system, installed software and applications | Amazon EC2 | Hosting software that needs a customised operating system |
+| PaaS | Deployed application and its configuration, within platform limits | Google App Engine | Deploying a web application with less infrastructure administration |
+| SaaS | Use and permitted configuration of a finished application | Google Workspace | Providing email and document collaboration |
+
+These models describe different management boundaries rather than a ranking of quality. Security decisions about access and use remain relevant in each model.
+
+#### 2. Organisational choice
+
+A service choice should begin with the application's requirements and the organisation's capacity to support it. IaaS can accommodate a customised software environment, but the resulting maintenance work needs staff and time. PaaS can reduce infrastructure administration, provided the application fits the platform. SaaS may suit a standard business function when developing a separate application offers little benefit.
+
+These are applications of the service-model distinction, not universal recommendations. Integration, data requirements, costs and migration constraints still need assessment. The AWS versus Google Cloud post provides an initial comparison; practical evidence is needed to test the choice for a defined workload.
+
+#### 3. Initial personal learning goals
+
+Proposed goals for review:
+
+- By the end of Unit 1, explain IaaS, PaaS and SaaS using one example each and identify the main customer responsibilities.
+- During the module, develop and document a small cloud deployment, including configuration choices, security considerations and limitations, where practical activities allow.
+- At the next suitable activity, compare the cost of one defined workload across providers and explain how assumptions affect the result.
+- By the final portfolio, connect evidence from the module to development towards cloud and DevOps work, identifying remaining gaps rather than claiming competence from reading alone.
+
+#### 4. Reflective practice plan
+
+After each unit, keep a brief entry using **What? / So what? / What next?** Describe the activity briefly, analyse one important decision or difficulty, and identify a specific next step. Link each entry to its artefact and use literature where it helps explain or question the decision.
+
+When feedback becomes available, record the comment, the change made in response and whether that change improved the work. Review the skills matrix alongside these entries so the action plan reflects evidence of progress. Unit notes will support a selective final reflection within the assessment's word limit.
+
+#### Reading reference for seminar preparation
+
+Mell, P. and Grance, T. (2011) *The NIST Definition of Cloud Computing*. NIST Special Publication 800-145. Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf (Accessed: 22 October 2026).
+
+### Feedback and seminar outcomes
+
+No tutor or peer feedback has been supplied for this activity yet. Seminar preparation is recorded above. Attendance, discussion contributions and feedback from the session remain unconfirmed.
 
 ## Professional skills matrix and action plan: working record
 
