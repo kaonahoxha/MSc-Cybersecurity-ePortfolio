@@ -23,8 +23,8 @@ Checked items reflect completion confirmed by the student. Unchecked items are p
 - [x] Publish one formative forum post (completion confirmed on 22 October 2026).
 - [x] Preserve the comparison text in this portfolio.
 - [ ] Watch the introductory lecturecast.
-- [ ] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
-- [ ] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
+- [x] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
+- [x] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
 - [ ] Attend the seminar or review its available materials (attendance rules not specified).
 - [ ] Confirm personal learning goals and complete the Unit 1 reflection.
 - [ ] Add a direct link or screenshot of the published post.
@@ -69,15 +69,25 @@ Google Cloud (n.d.c) *Committed use discounts*. Available at: https://docs.cloud
 
 Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud.google.com/compute/docs/sustained-use-discounts (Accessed: 22 October 2026).
 
-### Reflection working notes
+### Unit 1 reflection: draft for student review
 
-These are prompts and an assessment of the artefact, not a completed personal reflection.
+This draft draws on the completed comparison and confirmed reading completion. Personal observations should be reviewed before it is treated as a final reflection. It does not attribute learning to an unseen seminar transcript.
 
-**What?** The formative activity compared AWS and Google Cloud using official provider documentation.
+**What?**
 
-**So what?** The comparison moves beyond product lists by connecting infrastructure control to maintenance responsibilities and pricing commitments to uncertain demand. Its limitation is that the judgement remains conceptual: there is no costed workload, practical deployment or independent performance evidence. Provider documentation explains functionality but also reflects the providers' commercial perspective.
+For Unit 1, I completed the required readings and posted a comparison of AWS and Google Cloud. The comparison considered service models, flexibility, pricing and possible organisational uses. It provided an opportunity to apply the unit's concepts to decisions about infrastructure control and operational responsibility.
 
-**What next?** After completing the readings and seminar, record which ideas changed or challenged prior understanding, link those observations to literature, and identify a specific application to future work. A useful extension would compare one identical workload across both pricing calculators, documenting region, availability, storage, transfer and demand assumptions.
+**So what?**
+
+The strongest part of the comparison is its treatment of flexibility as a trade-off. Greater control over a virtual machine also means responsibility for maintaining its operating system and applications. A managed platform may reduce that burden, but its suitability still depends on runtime requirements and integration choices. This makes the organisation's ability to operate a service part of the selection decision.
+
+The same reasoning applies to cost. A discounted rate is only useful when the commitment fits the workload. The post therefore considers staffing effort and changing demand alongside infrastructure charges. However, it does not calculate an equivalent workload on both platforms. Its conclusion is a reasoned starting point rather than evidence that either provider would be cheaper in practice. Reliance on provider documentation also limits the evaluation: it supports descriptions of services, but offers less independent evidence about their comparative performance.
+
+**What next?**
+
+For a later practical activity, I will define a small application workload and compare both providers using the same assumptions for region, availability, storage and data transfer. I will also record which management and security tasks remain with the customer. This would allow me to test the argument made in the discussion and identify where a lower hosting price creates additional operational work.
+
+Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. Seminar-specific observations will be added once its full material is available for review.
 
 ### Proposed learning goals: awaiting student review
 
@@ -97,8 +107,8 @@ This initial record will be transferred into the university's template once supp
 |---|---|---|---|---|
 | Cloud service evaluation | Unit 1 provider comparison | Conceptual evaluation; no practical deployment | Explain responsibility boundaries for one IaaS and one PaaS example | End of Unit 1 |
 | Cloud cost analysis | Discussion of pricing trade-offs | No equivalent workload calculation | Compare a defined workload using both provider calculators and record assumptions | Next relevant practical activity |
-| Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | Complete required reading and assess how it supports or challenges the comparison | Unit 1 reflection |
-| Reflective practice | Working prompts above | Personal learning and change not yet recorded | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
+| Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | Required reading completed; identify and cite a specific argument that supports or challenges the comparison | Unit 1 reflection |
+| Reflective practice | Draft reflection above | Personal observations and literature integration await review | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
 
 ## Team and tutor meeting record
 
