@@ -29,7 +29,7 @@ Checked items reflect completion confirmed by the student. Unchecked items are p
 - [ ] Attend the seminar or review its recording, if available (attendance not yet confirmed).
 - [x] Draft personal learning goals and a reflective practice plan.
 - [ ] Confirm personal learning goals and complete the Unit 1 reflection.
-- [ ] Add a direct link or screenshot of the published post.
+- [x] Add screenshots of the published post and references.
 - [ ] Record any feedback received and the response to it.
 
 Recommended/additional reading and further peer replies are optional in the supplied Unit 1 instructions.
@@ -37,9 +37,19 @@ Recommended/additional reading and further peer replies are optional in the supp
 ### Artefact 1: AWS vs Google Cloud
 
 **Activity:** compare two providers on service models, flexibility, pricing and use cases.  
-**Status:** forum submission confirmed by the student; text below preserves the revised draft used for posting. The live forum post has not been independently checked.  
+**Status:** forum submission confirmed by the student; text below preserves the revised draft used for posting. The supplied screenshots show the published post under the student's name, dated 22 October 2026 at 8:12 PM, and its reference list.  
 **Evidence link:** [Unit 1 discussion forum](https://www.my-course.co.uk/mod/forum/view.php?id=1433566) (university login required).  
 **Outcome mapping:** the comparison addresses service models and evaluation of cloud adoption. It does not, by itself, demonstrate every Unit 1 outcome.
+
+#### Screenshots of the published post
+
+[Open discussion screenshot](evidence/unit-1-forum-post.png) · [Open references screenshot](evidence/unit-1-forum-references.png)
+
+![Published Unit 1 discussion showing author, date and comparison](evidence/unit-1-forum-post.png)
+
+![Reference list accompanying the published Unit 1 discussion](evidence/unit-1-forum-references.png)
+
+The screenshots are preserved as supplied. The first includes interface overlays over a small part of the lower-right text; the accessible text version below supports reading the complete comparison.
 
 #### AWS vs Google Cloud
 
