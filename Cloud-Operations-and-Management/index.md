@@ -230,9 +230,95 @@ Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption st
 
 No tutor or peer feedback has been supplied yet. Record feedback and any resulting changes when available.
 
+## Unit 3: Cloud Design Tools
+
+### Learning outcomes supplied in the unit brief
+
+- Understand how AI enhances cloud service performance.
+- Analyse real-world use cases of AI-driven cloud platforms.
+- Evaluate the benefits of integrating AI into cloud systems.
+
+The supplied formative discussion separately asks for a comparison of cloud design tools. The Summary addresses that task; the fundamentals reflection uses AI product examples to explore service models. Neither constitutes a practical performance evaluation.
+
+### Progress checklist
+
+- [x] Prepare the 300-word cloud design tool Summary (excluding references).
+- [x] Post the Summary: verified against the supplied screenshot.
+- [x] Preserve the Summary screenshot and text.
+- [ ] Read and respond to a peer's post in 300 words excluding references: waiting for a peer to post.
+- [x] Draft the 300-word Cloud computing fundamentals reflection.
+- [ ] Review the fundamentals reflection and complete the activity's submission process, if required.
+- [ ] Complete the lecturecast (not yet confirmed).
+- [ ] Complete the required Kubernetes Book reading (no chapters specified; completion not yet confirmed).
+- [ ] Add feedback and update reflection when available.
+
+### Artefact 1: Summary — Structurizr for Cloud Application Design
+
+The supplied screenshot shows a Summary posted under Kaona Hoxha on Sunday, 25 October 2026, 4:32 PM as displayed by Moodle, including the text and references.
+
+[Open full-size Summary evidence](evidence/unit-3-structurizr-summary.png)
+
+![Published Unit 3 Summary showing author, date, discussion and references](evidence/unit-3-structurizr-summary.png)
+
+Structurizr is a choice for designing cloud applications when the priority is maintaining consistent architecture documentation throughout development. Its advantage over general diagramming tools is that multiple views are generated from one model, rather than maintained as separate drawings (Structurizr, n.d.a).
+
+For a cloud application comprising a web interface, an API and a database, different audiences need different levels of detail. A context view can explain the system’s purpose, while a deployment view shows where application instances run. Structurizr supports deployment models that map software instances onto infrastructure nodes (Structurizr, n.d.b). Defining these relationships explicitly makes the tool particularly useful when reviewing how an architectural change affects the wider system.
+
+Its textual domain-specific language also fits a Git workflow. Architecture changes can be versioned and reviewed alongside application changes, making the reasoning behind revisions easier to discuss. For a development team already using GitHub, this offers a practical basis for maintaining documentation as the application evolves (Structurizr, n.d.a). However, this benefit depends on the team updating the model; generated diagrams do not automatically prove that deployed infrastructure matches the design.
+
+Lucid’s Cloud Accelerator offers a different strength: it imports cloud account data and generates diagrams of existing environments across AWS, Azure and Google Cloud (Lucid, n.d.). This may be preferable for discovering deployed resources. Structurizr is more suitable for my chosen use case because the central concern is explaining intended software structure and deployment relationships before and during implementation.
+
+The main limitation is accessibility. Structurizr acknowledges that its code-based approach can exclude contributors unfamiliar with coding (Structurizr, n.d.c). A visual editor may therefore suit collaborative workshops better. Nevertheless, for a technically experienced team managing a changing cloud application, Structurizr’s shared model and compatibility with version control make it the stronger design tool. This judgement concerns maintainability, rather than universal superiority.
+
+#### References for the Summary
+
+Lucid (n.d.) *Cloud architecture diagramming software*. Available at: https://lucid.co/cloud (Accessed: 25 October 2026).
+
+Structurizr (n.d.a) *Structurizr*. Available at: https://docs.structurizr.com/ (Accessed: 25 October 2026).
+
+Structurizr (n.d.b) *Deployment view*. Available at: https://docs.structurizr.com/dsl/cookbook/deployment-view/ (Accessed: 25 October 2026).
+
+Structurizr (n.d.c) *Why “as code”?* Available at: https://docs.structurizr.com/as-code (Accessed: 25 October 2026).
+
+### Artefact 2: Peer Response
+
+Pending: no peer post was available when the student completed the Summary. The response will address an actual peer contribution when available.
+
+### Artefact 3: Cloud computing fundamentals — reflection draft
+
+**Status:** 300-word draft, excluding references, prepared for student review. Submission has not been confirmed. Personal learning statements must reflect the student's own understanding.
+
+Comparing IaaS, PaaS and SaaS has helped me frame cloud adoption as a decision about responsibility, rather than a choice of provider. The models differ in how much of the technology stack the customer controls: infrastructure services allow operating-system management, platforms support application deployment, and software services provide finished applications (Mell and Grance, 2011).
+
+IaaS is appropriate when a workload needs specialised configurations. AWS’s introduction of EC2 P6-B200 instances in May 2025 illustrates how infrastructure services support demanding AI training and inference workloads (AWS, 2025). However, access to powerful hardware does not remove the need for software maintenance, security configuration and cost control. I would therefore assess whether the organisation has the expertise to use that flexibility effectively.
+
+PaaS offers a different balance. Google’s announcement of generally available GPU support for Cloud Run in June 2025 shows that managed application platforms can also accommodate AI inference (Giannini and Xiao, 2025). Cloud Run represents a serverless platform approach: developers deploy applications while the provider manages underlying infrastructure. This challenges the assumption that advanced workloads always require direct infrastructure management. Nevertheless, supported hardware and platform constraints still affect suitability.
+
+SaaS suits organisations seeking established functionality without developing the application themselves. Microsoft’s January 2025 introduction of Microsoft 365 Copilot Chat illustrates AI functionality being delivered through existing business software (Spataro, 2025). Operational simplicity does not remove the need to govern access, assess data handling and check outputs.
+
+The main lesson is that AI adoption spans all three models; it does not determine which model an organisation should choose. These announcements illustrate product developments, rather than proving market-wide adoption or better outcomes. In future comparisons, I will start with workload requirements, available skills and acceptable dependencies, then assess total operating effort. This should produce a more defensible recommendation than choosing the most flexible service.
+
+#### References for the fundamentals reflection
+
+AWS (2025) *Amazon EC2 P6-B200 instances powered by NVIDIA B200 GPUs now generally available*. 15 May. Available at: https://aws.amazon.com/about-aws/whats-new/2025/05/amazon-ec2-p6-b200-instances-nvidia-b200-gpus/ (Accessed: 25 October 2026).
+
+Giannini, S. and Xiao, Y. (2025) *Cloud Run GPUs, now GA, makes running AI workloads easier for everyone*. 2 June. Available at: https://cloud.google.com/blog/products/serverless/cloud-run-gpus-are-now-generally-available (Accessed: 25 October 2026).
+
+Mell, P. and Grance, T. (2011) *The NIST Definition of Cloud Computing*. NIST Special Publication 800-145. Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf (Accessed: 25 October 2026).
+
+Spataro, J. (2025) *Copilot for all: Introducing Microsoft 365 Copilot Chat*. 15 January. Available at: https://www.microsoft.com/en-us/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat/ (Accessed: 25 October 2026).
+
+### Skills and action-plan notes
+
+| Skill | Current evidence | Limitation | Next step |
+|---|---|---|---|
+| Design-tool selection | Structurizr Summary compares maintainability, modelling and accessibility with Lucid | Documentation-based comparison; no hands-on benchmark | Test how a small model change affects multiple views in a later design activity |
+| Cloud service evaluation | Fundamentals reflection draft links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | Review the reflection and justify a model for a defined workload |
+| Peer discussion | Summary posted | Response not yet possible | Respond to one actual peer post when available |
+
 ## Later units and final submission
 
-Add each unit's checklist, selected artefacts, feedback, reflection and skills updates as work progresses. Units 1–2 are recorded above. Units 3–12 will be added as work progresses.
+Add each unit's checklist, selected artefacts, feedback, reflection and skills updates as work progresses. Units 1–3 are recorded above. Units 4–12 will be added as work progresses.
 
 Before final submission:
 - Check the module-specific e-Portfolio brief and rubric, including the 2,000-word requirement and what it includes.
