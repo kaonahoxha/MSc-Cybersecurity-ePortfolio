@@ -160,9 +160,79 @@ This initial record will be transferred into the university's template once supp
 
 No meetings have been reported for this module yet. For each meeting, record the date, participants, decisions, responsibilities and follow-up actions. Keep confidential peer evaluations within the required confidential submission route.
 
+## Unit 2: Understanding Cloud Architecture and Implementing Different Frameworks
+
+### Learning outcomes
+
+- Apply TOGAF principles to cloud architecture design.
+- Implement SDLC in cloud environments.
+- Utilise IaC to automate cloud infrastructure.
+
+The discussion below supports conceptual evaluation of architecture frameworks. It does not demonstrate practical SDLC or IaC implementation.
+
+### Progress checklist
+
+- [x] Obtain and analyse Anggraini, Binariswanto and Legowo (2019).
+- [x] Prepare the ROCCA and TOGAF discussion.
+- [x] Publish the discussion: confirmed by the supplied screenshot.
+- [x] Preserve the post and submission evidence in the portfolio.
+- [x] Prepare reflection and skills development notes for student review.
+- [ ] Complete Jager (2025), Chapters 3–4 (completion not yet confirmed).
+- [ ] Review and personalise the reflection below.
+- [ ] Add any feedback and resulting revisions when available.
+
+Alshamaila (2023) and Ullah et al. (2022) are optional readings in the supplied guidance. No separate coding or deployment submission is specified in the Unit 2 material supplied so far.
+
+### Artefact: ROCCA and TOGAF in Government Cloud Adoption
+
+**Evidence:** the screenshot shows the discussion under Kaona Hoxha, dated Sunday, 25 October 2026, 10:49 AM as displayed by Moodle. It includes the post and its reference.
+
+[Open full-size submission evidence](evidence/unit-2-rocca-togaf-post.png)
+
+![Published Unit 2 discussion with author, date, full text and reference](evidence/unit-2-rocca-togaf-post.png)
+
+#### Discussion text
+
+Government cloud adoption requires decisions about organisational responsibilities, public resources and control over data. Anggraini, Binariswanto and Legowo (2019) address these concerns by combining the Roadmap for Cloud Computing Adoption (ROCCA) with TOGAF 9.2. Their study suggests that the frameworks complement each other, although the evidence is stronger for strategic planning than for operational results.
+
+ROCCA structures adoption through analysis, planning, adoption, migration and management. TOGAF adds architecture processes and artefacts that help connect these activities to organisational requirements. For example, a stakeholder map can identify the regulators, application owners and internal departments whose requirements affect migration decisions (Anggraini, Binariswanto and Legowo, 2019, pp. 1320–1321). This matters because a technically suitable service may still be inappropriate if responsibilities for access, oversight and support remain unclear.
+
+The SKK Migas case illustrates this connection. Limited data-centre capacity, budget constraints and staff turnover encouraged the agency to consider cloud services. Its proposed roadmap began with SaaS for supporting applications without core business data, followed by PaaS and, conditionally, private-cloud infrastructure (Anggraini, Binariswanto and Legowo, 2019, p. 1322). Starting with less sensitive applications provides an opportunity to develop experience before making more consequential commitments. However, the decision to expand should depend on evidence from those early stages, rather than assuming that successful SaaS adoption establishes readiness to manage infrastructure services.
+
+The study’s validation also requires caution. SKK Migas already used TOGAF, and the combined framework was assessed through one senior manager’s judgement. The reported application concentrated on analysis and planning, without presenting measured post-migration improvements in cost, availability or security (Anggraini, Binariswanto and Legowo, 2019, pp. 1321–1323). Consequently, the findings support the framework’s perceived usefulness in this setting, but do not establish its effectiveness across government agencies.
+
+A further issue is whether documented requirements can be enforced. The case identifies provider migration provisions as a response to lock-in. Yet a contractual right to leave does not itself demonstrate that data and applications can be transferred affordably. An agency applying this approach should therefore test an exit scenario and assign responsibility for verifying it.
+
+Overall, combining ROCCA and TOGAF offers a useful basis for accountable cloud planning. Its value ultimately depends on whether architecture decisions lead to demonstrable improvements in services and manageable dependencies.
+
+#### Reference
+
+Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption strategic planning using ROCCA and TOGAF 9.2: A study in government agency’, *Procedia Computer Science*, 161, pp. 1316–1324. Available at: https://doi.org/10.1016/j.procs.2019.11.247.
+
+### Reflection draft: awaiting student review
+
+**What?** I examined the use of ROCCA and TOGAF 9.2 in the SKK Migas case and prepared a discussion evaluating the proposed framework. The activity required distinguishing the authors' account of its usefulness from evidence of its effectiveness.
+
+**So what?** The important distinction is between producing a structured adoption plan and demonstrating that the resulting service works well. The case maps adoption activities to architecture artefacts, but its evaluation concentrates on planning and one manager's judgement (Anggraini, Binariswanto and Legowo, 2019, pp. 1321–1323). This limits the conclusions that can be drawn about savings, resilience and security after migration. The discussion also examines whether a requirement has been verified in practice: specifying an exit provision does not establish that migration is technically feasible or affordable. This develops the Unit 1 comparison by considering how an organisation could govern and test its cloud decisions.
+
+**What next?** In the team project, I propose linking each important architecture requirement to an owner, evidence and an acceptance criterion. For portability, an example would be testing an export and recovery process and recording the time, dependencies and costs. This is a proposed development action, not a practical test already completed. I will also use the required Jager chapters to refine the architecture analysis once reading completion and relevant notes are confirmed.
+
+### Skills and action-plan update
+
+| Skill | Evidence from Unit 2 | Limitation | Proposed next action |
+|---|---|---|---|
+| Framework evaluation | Comparison of ROCCA's adoption roadmap with TOGAF artefacts | One case; no independent framework implementation | Apply selected artefacts to the team project and justify the selection |
+| Critical appraisal | Distinguishes planning validation from operational outcomes | Does not provide an alternative empirical evaluation | Define measurable success criteria for a proposed migration |
+| Requirements and governance | Analysis of stakeholders and provider exit provisions | Exit feasibility has not been tested | Specify a requirement owner and a practical portability test |
+| SDLC and IaC | Unit learning outcomes identified | No implementation evidence recorded | Add evidence when relevant practical work is undertaken |
+
+### Feedback
+
+No tutor or peer feedback has been supplied yet. Record feedback and any resulting changes when available.
+
 ## Later units and final submission
 
-Add each unit's checklist, selected artefacts, feedback, reflection and skills updates as work progresses. Units 2–12 have not been recorded here yet.
+Add each unit's checklist, selected artefacts, feedback, reflection and skills updates as work progresses. Units 1–2 are recorded above. Units 3–12 will be added as work progresses.
 
 Before final submission:
 - Check the module-specific e-Portfolio brief and rubric, including the 2,000-word requirement and what it includes.
