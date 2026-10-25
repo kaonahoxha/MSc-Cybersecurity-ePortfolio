@@ -177,8 +177,8 @@ The discussion below supports conceptual evaluation of architecture frameworks. 
 - [x] Publish the discussion: confirmed by the supplied screenshot.
 - [x] Preserve the post and submission evidence in the portfolio.
 - [x] Prepare reflection and skills development notes for student review.
-- [ ] Complete Jager (2025), Chapters 3–4 (completion not yet confirmed).
-- [ ] Review and personalise the reflection below.
+- [x] Complete Jager (2025), Chapters 3–4 (confirmed by the student).
+- [x] Review and agree with the Unit 2 reflection (confirmed by the student).
 - [ ] Add any feedback and resulting revisions when available.
 
 Alshamaila (2023) and Ullah et al. (2022) are optional readings in the supplied guidance. No separate coding or deployment submission is specified in the Unit 2 material supplied so far.
@@ -209,13 +209,13 @@ Overall, combining ROCCA and TOGAF offers a useful basis for accountable cloud p
 
 Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption strategic planning using ROCCA and TOGAF 9.2: A study in government agency’, *Procedia Computer Science*, 161, pp. 1316–1324. Available at: https://doi.org/10.1016/j.procs.2019.11.247.
 
-### Reflection draft: awaiting student review
+### Reflection: reviewed and agreed by the student
 
 **What?** I examined the use of ROCCA and TOGAF 9.2 in the SKK Migas case and prepared a discussion evaluating the proposed framework. The activity required distinguishing the authors' account of its usefulness from evidence of its effectiveness.
 
 **So what?** The important distinction is between producing a structured adoption plan and demonstrating that the resulting service works well. The case maps adoption activities to architecture artefacts, but its evaluation concentrates on planning and one manager's judgement (Anggraini, Binariswanto and Legowo, 2019, pp. 1321–1323). This limits the conclusions that can be drawn about savings, resilience and security after migration. The discussion also examines whether a requirement has been verified in practice: specifying an exit provision does not establish that migration is technically feasible or affordable. This develops the Unit 1 comparison by considering how an organisation could govern and test its cloud decisions.
 
-**What next?** In the team project, I propose linking each important architecture requirement to an owner, evidence and an acceptance criterion. For portability, an example would be testing an export and recovery process and recording the time, dependencies and costs. This is a proposed development action, not a practical test already completed. I will also use the required Jager chapters to refine the architecture analysis once reading completion and relevant notes are confirmed.
+**What next?** In the team project, I propose linking each important architecture requirement to an owner, evidence and an acceptance criterion. For portability, an example would be testing an export and recovery process and recording the time, dependencies and costs. This is a proposed development action, not a practical test already completed. I will also use the required Jager chapters to refine the architecture analysis using relevant notes from the completed reading.
 
 ### Skills and action-plan update
 
