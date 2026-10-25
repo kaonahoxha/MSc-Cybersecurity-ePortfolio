@@ -226,7 +226,7 @@ I compared Structurizr with Lucid in my Summary and explored IaaS, PaaS and SaaS
 - [ ] I will read and respond to a peer's post in 300 words excluding references when a post is available.
 - [x] I have completed and saved my 300-word Cloud computing fundamentals reflection.
 - [ ] I will complete the Unit 3 lecturecast.
-- [ ] I will complete the required Kubernetes Book reading.
+- [x] I have completed the required Kubernetes Book reading.
 - [ ] I will use any feedback to update my reflection.
 
 ### Artefact 1: Summary — Structurizr for Cloud Application Design
