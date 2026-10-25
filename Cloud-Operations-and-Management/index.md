@@ -2,43 +2,32 @@
 
 [Portfolio home](../index.md)
 
-I use this portfolio to record my activities, evidence, feedback and development across the module. Before submission, I will review my selection of evidence and reflection against the assessment brief.
+I have organised my work by unit, bringing together discussions, reflections, learning goals and evidence of my progress.
 
-## Learning outcomes
+## Unit 1: Introduction to Cloud Fundamentals and Services
 
-The Unit 1 outcomes supplied in the module guidance are to:
+### Learning outcomes
 - Define cloud computing and identify its key characteristics.
 - Differentiate between IaaS, PaaS and SaaS and their applications.
 - Evaluate the benefits and challenges of cloud adoption in different organisational settings.
 
-I will add the complete module learning outcomes to guide my final selection of evidence.
-
-## Unit 1: Introduction to Cloud Fundamentals and Services
-
 ### Progress checklist
-
-I use the checklists to track my completed work and remaining tasks.
 
 - [x] I have prepared the provider comparison.
 - [x] I posted my formative discussion on 22 October 2026.
-- [x] I have saved my comparison in this portfolio.
 - [x] I have watched the introductory lecturecast.
 - [x] I have read Mell and Grance (2011), The NIST Definition of Cloud Computing.
 - [x] I have completed the assigned Gupta (2024) reading.
 - [x] I have reviewed the seminar brief and prepared my responses.
 - [x] I have written my learning goals and reflective practice plan.
-- [x] I have reviewed my Unit 1 goals and reflection.
 - [x] I have added screenshots of my post and references.
 - [ ] I will record any feedback and my response to it.
 
-Recommended/additional reading and further peer replies are optional in the supplied Unit 1 instructions.
-
 ### Artefact 1: AWS vs Google Cloud
 
-**Activity:** I compared AWS and Google Cloud on service models, flexibility, pricing and use cases.  
-I posted this comparison on 22 October 2026. I have included screenshots of my post and references below.  
-**Evidence link:** [Unit 1 discussion forum](https://www.my-course.co.uk/mod/forum/view.php?id=1433566) (university login required).  
-**Learning outcomes:** In this comparison, I examined service models and evaluated factors affecting cloud adoption.
+I compared AWS and Google Cloud on service models, flexibility, pricing and use cases. I posted my discussion on 22 October 2026.
+
+[Unit 1 discussion forum](https://www.my-course.co.uk/mod/forum/view.php?id=1433566) (university login required).
 
 #### Screenshots of the published post
 
@@ -47,8 +36,6 @@ I posted this comparison on 22 October 2026. I have included screenshots of my p
 ![Published Unit 1 discussion showing author, date and comparison](evidence/unit-1-forum-post.png)
 
 ![Reference list accompanying the published Unit 1 discussion](evidence/unit-1-forum-references.png)
-
-I have included the full text below so my comparison remains readable alongside the screenshots.
 
 #### AWS vs Google Cloud
 
@@ -82,23 +69,19 @@ Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud
 
 ### My Unit 1 reflection
 
-I have reflected on the required reading, my provider comparison and the seminar preparation questions.
-
 **What?**
 
 For Unit 1, I completed the required readings and posted a comparison of AWS and Google Cloud. The comparison considered service models, flexibility, pricing and possible organisational uses. It provided an opportunity to apply the unit's concepts to decisions about infrastructure control and operational responsibility.
 
 **So what?**
 
-The strongest part of the comparison is its treatment of flexibility as a trade-off. Greater control over a virtual machine also means responsibility for maintaining its operating system and applications. A managed platform may reduce that burden, but its suitability still depends on runtime requirements and integration choices. This makes the organisation's ability to operate a service part of the selection decision.
+In my comparison, I examined flexibility as a trade-off. Greater control over a virtual machine also means responsibility for maintaining its operating system and applications. A managed platform may reduce that burden, but its suitability still depends on runtime requirements and integration choices. This makes the organisation's ability to operate a service part of the selection decision.
 
-The same reasoning applies to cost. A discounted rate is only useful when the commitment fits the workload. The post therefore considers staffing effort and changing demand alongside infrastructure charges. However, it does not calculate an equivalent workload on both platforms. Its conclusion is a reasoned starting point rather than evidence that either provider would be cheaper in practice. Reliance on provider documentation also limits the evaluation: it supports descriptions of services, but offers less independent evidence about their comparative performance.
+The same reasoning applies to cost. A discounted rate is only useful when the commitment fits the workload. I considered staffing effort and changing demand alongside infrastructure charges. However, I did not cost an equivalent workload on both platforms, so I cannot conclude that either provider would be cheaper in practice. I also relied on provider documentation, which explains service features but offers limited independent evidence about comparative performance.
 
 **What next?**
 
 For a later practical activity, I will define a small application workload and compare both providers using the same assumptions for region, availability, storage and data transfer. I will also record which management and security tasks remain with the customer. This would allow me to test the argument made in the discussion and identify where a lower hosting price creates additional operational work.
-
-Before finalising this reflection, I need to identify one specific idea from the readings that changed or challenged my understanding, cite the relevant passage, and connect it to the comparison. The seminar preparation below sets out learning goals and a reflection plan. Further insights from seminar materials or feedback can be added as the module progresses.
 
 ### Seminar preparation: Introduction to Cloud Computing and Reflection on Learning Goals
 
@@ -126,10 +109,10 @@ These are applications of the service-model distinction, not universal recommend
 
 My learning goals are:
 
-- By the end of Unit 1, explain IaaS, PaaS and SaaS using one example each and identify the main customer responsibilities.
-- During the module, develop and document a small cloud deployment, including configuration choices, security considerations and limitations, where practical activities allow.
-- At the next suitable activity, compare the cost of one defined workload across providers and explain how assumptions affect the result.
-- By the final portfolio, connect evidence from the module to development towards cloud and DevOps work, identifying remaining gaps rather than claiming competence from reading alone.
+- I aim to explain IaaS, PaaS and SaaS using one example each and identify the main customer responsibilities.
+- I aim to develop and document a small cloud deployment, including configuration choices, security considerations and limitations, where practical activities allow.
+- I aim to compare the cost of one defined workload across providers and explain how assumptions affect the result.
+- I aim to connect evidence from the module to development towards cloud and DevOps work, identifying remaining gaps rather than claiming competence from reading alone.
 
 #### 4. Reflective practice plan
 
@@ -145,16 +128,16 @@ Mell, P. and Grance, T. (2011) *The NIST Definition of Cloud Computing*. NIST Sp
 
 I have not yet received feedback on this activity. I will record relevant comments and explain how I use them to improve my work.
 
-## Professional skills matrix and action plan: working record
+## My professional skills matrix and action plan
 
-I use this record to connect my evidence with areas for development. I will transfer it into the university's template for the final assessment. I distinguish conceptual understanding from skills I have demonstrated through practical work.
+I have linked my learning evidence to areas I want to develop further.
 
 | Skill | Current evidence | Gap or limitation | Next action | Review point |
 |---|---|---|---|---|
-| Cloud service evaluation | Unit 1 provider comparison | Conceptual evaluation; no practical deployment | Explain responsibility boundaries for one IaaS and one PaaS example | End of Unit 1 |
-| Cloud cost analysis | Discussion of pricing trade-offs | No equivalent workload calculation | Compare a defined workload using both provider calculators and record assumptions | Next relevant practical activity |
-| Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | Required reading completed; identify and cite a specific argument that supports or challenges the comparison | Unit 1 reflection |
-| Reflective practice | Draft reflection above | I have reviewed my reflection; I will strengthen its connection to literature | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
+| Cloud service evaluation | Unit 1 provider comparison | Conceptual evaluation; no practical deployment | I will explain responsibility boundaries for one IaaS and one PaaS example | End of Unit 1 |
+| Cloud cost analysis | Discussion of pricing trade-offs | No equivalent workload calculation | I will compare a defined workload using both provider calculators and record assumptions | Next relevant practical activity |
+| Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | I will identify and cite a specific argument that supports or challenges the comparison | Unit 1 reflection |
+| Reflective practice | My Unit 1 reflection | I need to strengthen the connection to literature | I will connect specific reading insights to my decisions | Final reflection |
 
 ## Team and tutor meeting record
 
@@ -175,13 +158,9 @@ In this discussion, I evaluated architecture frameworks conceptually. I have not
 - [x] I have analysed Anggraini, Binariswanto and Legowo (2019).
 - [x] I have written my ROCCA and TOGAF discussion.
 - [x] I have posted my discussion.
-- [x] I have saved my post and submission evidence.
 - [x] I have written my reflection and skills development notes.
 - [x] I have read Jager (2025), Chapters 3–4.
-- [x] I have reviewed my Unit 2 reflection.
 - [ ] I will record feedback and any resulting revisions.
-
-Alshamaila (2023) and Ullah et al. (2022) are optional readings in the supplied guidance. No separate coding or deployment submission is specified in the Unit 2 material supplied so far.
 
 ### Artefact: ROCCA and TOGAF in Government Cloud Adoption
 
@@ -215,16 +194,15 @@ Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption st
 
 **So what?** The important distinction is between producing a structured adoption plan and demonstrating that the resulting service works well. The case maps adoption activities to architecture artefacts, but its evaluation concentrates on planning and one manager's judgement (Anggraini, Binariswanto and Legowo, 2019, pp. 1321–1323). This limits the conclusions that can be drawn about savings, resilience and security after migration. The discussion also examines whether a requirement has been verified in practice: specifying an exit provision does not establish that migration is technically feasible or affordable. This develops the Unit 1 comparison by considering how an organisation could govern and test its cloud decisions.
 
-**What next?** In the team project, I propose linking each important architecture requirement to an owner, evidence and an acceptance criterion. For portability, an example would be testing an export and recovery process and recording the time, dependencies and costs. This is a proposed development action, not a practical test already completed. I will also use the required Jager chapters to refine the architecture analysis using relevant notes from the completed reading.
+**What next?** In the team project, I propose linking each important architecture requirement to an owner, evidence and an acceptance criterion. For portability, an example would be testing an export and recovery process and recording the time, dependencies and costs. I will also use the required Jager chapters to refine the architecture analysis using relevant notes from the completed reading.
 
 ### Skills and action-plan update
 
 | Skill | Evidence from Unit 2 | Limitation | Proposed next action |
 |---|---|---|---|
-| Framework evaluation | Comparison of ROCCA's adoption roadmap with TOGAF artefacts | One case; no independent framework implementation | Apply selected artefacts to the team project and justify the selection |
-| Critical appraisal | Distinguishes planning validation from operational outcomes | Does not provide an alternative empirical evaluation | Define measurable success criteria for a proposed migration |
-| Requirements and governance | Analysis of stakeholders and provider exit provisions | Exit feasibility has not been tested | Specify a requirement owner and a practical portability test |
-| SDLC and IaC | Unit learning outcomes identified | No implementation evidence recorded | Add evidence when relevant practical work is undertaken |
+| Framework evaluation | Comparison of ROCCA's adoption roadmap with TOGAF artefacts | One case; no independent framework implementation | I will apply selected artefacts to the team project and justify the selection |
+| Critical appraisal | Distinguishes planning validation from operational outcomes | Does not provide an alternative empirical evaluation | I will define measurable success criteria for a proposed migration |
+| Requirements and governance | Analysis of stakeholders and provider exit provisions | Exit feasibility has not been tested | I will specify a requirement owner and a practical portability test |
 
 ### Feedback
 
@@ -232,13 +210,13 @@ I have not yet received feedback. I will record any comments and the changes I m
 
 ## Unit 3: Cloud Design Tools
 
-### Learning outcomes supplied in the unit brief
+### Learning outcomes
 
 - Understand how AI enhances cloud service performance.
 - Analyse real-world use cases of AI-driven cloud platforms.
 - Evaluate the benefits of integrating AI into cloud systems.
 
-I compared cloud design tools in my Summary and explored service models through AI product examples in my fundamentals reflection. My analysis is based on documentation rather than a practical performance evaluation.
+I compared Structurizr with Lucid in my Summary and explored IaaS, PaaS and SaaS through recent AI product developments in my fundamentals reflection.
 
 ### Progress checklist
 
@@ -247,8 +225,6 @@ I compared cloud design tools in my Summary and explored service models through 
 - [x] I have saved my Summary and screenshot.
 - [ ] I will read and respond to a peer's post in 300 words excluding references when a post is available.
 - [x] I have completed and saved my 300-word Cloud computing fundamentals reflection.
-- [x] I have added my fundamentals reflection to this portfolio.
-- [ ] I will check whether the activity requires a separate Moodle submission.
 - [ ] I will complete the Unit 3 lecturecast.
 - [ ] I will complete the required Kubernetes Book reading.
 - [ ] I will use any feedback to update my reflection.
@@ -287,8 +263,6 @@ I am waiting for a peer to post before writing my response. I will engage with t
 
 ### Artefact 3: Cloud computing fundamentals — reflection
 
-I wrote the following 300-word reflection on the differences and use cases of IaaS, PaaS and SaaS, using recent product developments as examples.
-
 Comparing IaaS, PaaS and SaaS has helped me frame cloud adoption as a decision about responsibility, rather than a choice of provider. The models differ in how much of the technology stack the customer controls: infrastructure services allow operating-system management, platforms support application deployment, and software services provide finished applications (Mell and Grance, 2011).
 
 IaaS is appropriate when a workload needs specialised configurations. AWS’s introduction of EC2 P6-B200 instances in May 2025 illustrates how infrastructure services support demanding AI training and inference workloads (AWS, 2025). However, access to powerful hardware does not remove the need for software maintenance, security configuration and cost control. I would therefore assess whether the organisation has the expertise to use that flexibility effectively.
@@ -313,13 +287,11 @@ Spataro, J. (2025) *Copilot for all: Introducing Microsoft 365 Copilot Chat*. 15
 
 | Skill | Current evidence | Limitation | Next step |
 |---|---|---|---|
-| Design-tool selection | Structurizr Summary compares maintainability, modelling and accessibility with Lucid | Documentation-based comparison; no hands-on benchmark | Test how a small model change affects multiple views in a later design activity |
-| Cloud service evaluation | Fundamentals reflection links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | Apply the comparison to a defined workload and justify a service model |
-| Peer discussion | Summary posted | Response not yet possible | Respond to one actual peer post when available |
+| Design-tool selection | Structurizr Summary compares maintainability, modelling and accessibility with Lucid | Documentation-based comparison; no hands-on benchmark | I will test how a small model change affects multiple views in a later design activity |
+| Cloud service evaluation | Fundamentals reflection links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | I will apply the comparison to a defined workload and justify a service model |
+| Peer discussion | Summary posted | Response not yet possible | I will respond to one actual peer post when available |
 
 ## Later units and final submission
-
-I have recorded my work for Units 1–3 above. I will add my checklists, selected artefacts, feedback, reflections and skills updates for Units 4–12 as I progress.
 
 Before final submission, I will:
 - Check the module-specific e-Portfolio brief and rubric, including the 2,000-word requirement and what it includes.
@@ -327,4 +299,4 @@ Before final submission, I will:
 - Complete the critical reflection, skills matrix and action plan.
 - Check navigation and access to every submitted artefact.
 - Create the required submission branch and configure GitHub Pages in line with the university guidance.
-- Record the submitted branch, commit and Pages URL. A branch remains editable unless additional controls are applied.
+- Record my submitted branch, commit and Pages URL.
