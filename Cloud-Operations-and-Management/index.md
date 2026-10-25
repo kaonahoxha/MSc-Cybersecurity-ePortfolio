@@ -246,8 +246,9 @@ The supplied formative discussion separately asks for a comparison of cloud desi
 - [x] Post the Summary: verified against the supplied screenshot.
 - [x] Preserve the Summary screenshot and text.
 - [ ] Read and respond to a peer's post in 300 words excluding references: waiting for a peer to post.
-- [x] Draft the 300-word Cloud computing fundamentals reflection.
-- [ ] Review the fundamentals reflection and complete the activity's submission process, if required.
+- [x] Complete and save the 300-word Cloud computing fundamentals reflection in the portfolio.
+- [x] Approve inclusion of the fundamentals reflection in GitHub.
+- [ ] Confirm any separate Moodle submission, if required by the activity.
 - [ ] Complete the lecturecast (not yet confirmed).
 - [ ] Complete the required Kubernetes Book reading (no chapters specified; completion not yet confirmed).
 - [ ] Add feedback and update reflection when available.
@@ -284,9 +285,9 @@ Structurizr (n.d.c) *Why “as code”?* Available at: https://docs.structurizr.
 
 Pending: no peer post was available when the student completed the Summary. The response will address an actual peer contribution when available.
 
-### Artefact 3: Cloud computing fundamentals — reflection draft
+### Artefact 3: Cloud computing fundamentals — reflection
 
-**Status:** 300-word draft, excluding references, prepared for student review. Submission has not been confirmed. Personal learning statements must reflect the student's own understanding.
+**Status:** 300-word reflection, excluding references, included in the portfolio at the student's request. Any separate Moodle submission remains unconfirmed.
 
 Comparing IaaS, PaaS and SaaS has helped me frame cloud adoption as a decision about responsibility, rather than a choice of provider. The models differ in how much of the technology stack the customer controls: infrastructure services allow operating-system management, platforms support application deployment, and software services provide finished applications (Mell and Grance, 2011).
 
@@ -313,7 +314,7 @@ Spataro, J. (2025) *Copilot for all: Introducing Microsoft 365 Copilot Chat*. 15
 | Skill | Current evidence | Limitation | Next step |
 |---|---|---|---|
 | Design-tool selection | Structurizr Summary compares maintainability, modelling and accessibility with Lucid | Documentation-based comparison; no hands-on benchmark | Test how a small model change affects multiple views in a later design activity |
-| Cloud service evaluation | Fundamentals reflection draft links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | Review the reflection and justify a model for a defined workload |
+| Cloud service evaluation | Fundamentals reflection links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | Apply the comparison to a defined workload and justify a service model |
 | Peer discussion | Summary posted | Response not yet possible | Respond to one actual peer post when available |
 
 ## Later units and final submission
