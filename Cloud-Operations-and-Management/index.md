@@ -2,7 +2,7 @@
 
 [Portfolio home](../index.md)
 
-This module portfolio records activities, evidence, feedback and development across the units. It is a working portfolio; the final selection and reflection will be checked against the module-specific assessment brief.
+I use this portfolio to record my activities, evidence, feedback and development across the module. Before submission, I will review my selection of evidence and reflection against the assessment brief.
 
 ## Learning outcomes
 
@@ -11,34 +11,34 @@ The Unit 1 outcomes supplied in the module guidance are to:
 - Differentiate between IaaS, PaaS and SaaS and their applications.
 - Evaluate the benefits and challenges of cloud adoption in different organisational settings.
 
-The complete module learning outcomes will be added when available.
+I will add the complete module learning outcomes to guide my final selection of evidence.
 
 ## Unit 1: Introduction to Cloud Fundamentals and Services
 
 ### Progress checklist
 
-Checked items reflect completion confirmed by the student. Unchecked items are pending or unconfirmed.
+I use the checklists to track my completed work and remaining tasks.
 
-- [x] Prepare the provider comparison.
-- [x] Publish one formative forum post (completion confirmed on 22 October 2026).
-- [x] Preserve the comparison text in this portfolio.
-- [x] Watch the introductory lecturecast (completion confirmed by the student).
-- [x] Read Mell and Grance (2011), The NIST Definition of Cloud Computing.
-- [x] Read Gupta (2024): Parts 1 and 2; Part 3, sections 6 and 7; Part 4, section 10.
-- [x] Review the supplied seminar brief and prepare responses to its questions.
-- [x] Draft personal learning goals and a reflective practice plan.
-- [x] Review and approve the Unit 1 learning goals and current reflection (confirmed by the student).
-- [x] Add screenshots of the published post and references.
-- [ ] Record any feedback received and the response to it.
+- [x] I have prepared the provider comparison.
+- [x] I posted my formative discussion on 22 October 2026.
+- [x] I have saved my comparison in this portfolio.
+- [x] I have watched the introductory lecturecast.
+- [x] I have read Mell and Grance (2011), The NIST Definition of Cloud Computing.
+- [x] I have completed the assigned Gupta (2024) reading.
+- [x] I have reviewed the seminar brief and prepared my responses.
+- [x] I have written my learning goals and reflective practice plan.
+- [x] I have reviewed my Unit 1 goals and reflection.
+- [x] I have added screenshots of my post and references.
+- [ ] I will record any feedback and my response to it.
 
 Recommended/additional reading and further peer replies are optional in the supplied Unit 1 instructions.
 
 ### Artefact 1: AWS vs Google Cloud
 
-**Activity:** compare two providers on service models, flexibility, pricing and use cases.  
-**Status:** forum submission confirmed by the student; text below preserves the revised draft used for posting. The supplied screenshots show the published post under the student's name, dated 22 October 2026 at 8:12 PM, and its reference list.  
+**Activity:** I compared AWS and Google Cloud on service models, flexibility, pricing and use cases.  
+I posted this comparison on 22 October 2026. I have included screenshots of my post and references below.  
 **Evidence link:** [Unit 1 discussion forum](https://www.my-course.co.uk/mod/forum/view.php?id=1433566) (university login required).  
-**Outcome mapping:** the comparison addresses service models and evaluation of cloud adoption. It does not, by itself, demonstrate every Unit 1 outcome.
+**Learning outcomes:** In this comparison, I examined service models and evaluated factors affecting cloud adoption.
 
 #### Screenshots of the published post
 
@@ -48,7 +48,7 @@ Recommended/additional reading and further peer replies are optional in the supp
 
 ![Reference list accompanying the published Unit 1 discussion](evidence/unit-1-forum-references.png)
 
-The screenshots are preserved as supplied. The first includes interface overlays over a small part of the lower-right text; the accessible text version below supports reading the complete comparison.
+I have included the full text below so my comparison remains readable alongside the screenshots.
 
 #### AWS vs Google Cloud
 
@@ -80,9 +80,9 @@ Google Cloud (n.d.c) *Committed use discounts*. Available at: https://docs.cloud
 
 Google Cloud (n.d.d) *Sustained use discounts*. Available at: https://docs.cloud.google.com/compute/docs/sustained-use-discounts (Accessed: 22 October 2026).
 
-### Unit 1 reflection: current working entry
+### My Unit 1 reflection
 
-The student has reviewed and agreed with this working reflection and the learning goals. It draws on the completed comparison and confirmed reading completion. Literature integration will be refined for the final assessment. Seminar preparation is based on the supplied questions and objectives.
+I have reflected on the required reading, my provider comparison and the seminar preparation questions.
 
 **What?**
 
@@ -102,7 +102,7 @@ Before finalising this reflection, I need to identify one specific idea from the
 
 ### Seminar preparation: Introduction to Cloud Computing and Reflection on Learning Goals
 
-**Source:** Unit 1 seminar objectives and questions supplied by the student. The responses below address the preparation questions.
+I prepared the following responses using the Unit 1 seminar objectives and questions.
 
 #### 1. Differences between service models
 
@@ -124,7 +124,7 @@ These are applications of the service-model distinction, not universal recommend
 
 #### 3. Initial personal learning goals
 
-Learning goals reviewed and agreed by the student:
+My learning goals are:
 
 - By the end of Unit 1, explain IaaS, PaaS and SaaS using one example each and identify the main customer responsibilities.
 - During the module, develop and document a small cloud deployment, including configuration choices, security considerations and limitations, where practical activities allow.
@@ -133,9 +133,9 @@ Learning goals reviewed and agreed by the student:
 
 #### 4. Reflective practice plan
 
-After each unit, keep a brief entry using **What? / So what? / What next?** Describe the activity briefly, analyse one important decision or difficulty, and identify a specific next step. Link each entry to its artefact and use literature where it helps explain or question the decision.
+After each unit, I will keep a brief entry using **What? / So what? / What next?** I will describe the activity briefly, analyse one important decision or difficulty, and identify a specific next step. I will link each entry to its artefact and use literature to explain or question my decisions.
 
-When feedback becomes available, record the comment, the change made in response and whether that change improved the work. Review the skills matrix alongside these entries so the action plan reflects evidence of progress. Unit notes will support a selective final reflection within the assessment's word limit.
+When I receive feedback, I will record the comment, my response and whether the change improved my work. I will review my skills matrix alongside these entries so my action plan reflects my progress. I will use my unit notes to develop a selective final reflection within the assessment's word limit.
 
 #### Reading reference for seminar preparation
 
@@ -143,22 +143,22 @@ Mell, P. and Grance, T. (2011) *The NIST Definition of Cloud Computing*. NIST Sp
 
 ### Feedback
 
-No tutor or peer feedback has been supplied for this activity yet. Relevant feedback and resulting changes will be recorded when available.
+I have not yet received feedback on this activity. I will record relevant comments and explain how I use them to improve my work.
 
 ## Professional skills matrix and action plan: working record
 
-This initial record will be transferred into the university's template once supplied. It does not claim practical competence that has not yet been demonstrated.
+I use this record to connect my evidence with areas for development. I will transfer it into the university's template for the final assessment. I distinguish conceptual understanding from skills I have demonstrated through practical work.
 
 | Skill | Current evidence | Gap or limitation | Next action | Review point |
 |---|---|---|---|---|
 | Cloud service evaluation | Unit 1 provider comparison | Conceptual evaluation; no practical deployment | Explain responsibility boundaries for one IaaS and one PaaS example | End of Unit 1 |
 | Cloud cost analysis | Discussion of pricing trade-offs | No equivalent workload calculation | Compare a defined workload using both provider calculators and record assumptions | Next relevant practical activity |
 | Academic source evaluation | Provider documentation cited in discussion | Independent literature not yet integrated into reflection | Required reading completed; identify and cite a specific argument that supports or challenges the comparison | Unit 1 reflection |
-| Reflective practice | Draft reflection above | Working reflection reviewed by the student; literature integration remains to be refined | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
+| Reflective practice | Draft reflection above | I have reviewed my reflection; I will strengthen its connection to literature | Complete What? / So what? / What next? using actual experience and evidence | End of Unit 1 |
 
 ## Team and tutor meeting record
 
-No meetings have been reported for this module yet. For each meeting, record the date, participants, decisions, responsibilities and follow-up actions. Keep confidential peer evaluations within the required confidential submission route.
+I will use this section to record the dates, participants, decisions and actions from my team and tutor meetings. I will submit confidential peer evaluations through the required confidential route.
 
 ## Unit 2: Understanding Cloud Architecture and Implementing Different Frameworks
 
@@ -168,24 +168,24 @@ No meetings have been reported for this module yet. For each meeting, record the
 - Implement SDLC in cloud environments.
 - Utilise IaC to automate cloud infrastructure.
 
-The discussion below supports conceptual evaluation of architecture frameworks. It does not demonstrate practical SDLC or IaC implementation.
+In this discussion, I evaluated architecture frameworks conceptually. I have not yet recorded practical SDLC or IaC implementation here.
 
 ### Progress checklist
 
-- [x] Obtain and analyse Anggraini, Binariswanto and Legowo (2019).
-- [x] Prepare the ROCCA and TOGAF discussion.
-- [x] Publish the discussion: confirmed by the supplied screenshot.
-- [x] Preserve the post and submission evidence in the portfolio.
-- [x] Prepare reflection and skills development notes for student review.
-- [x] Complete Jager (2025), Chapters 3–4 (confirmed by the student).
-- [x] Review and agree with the Unit 2 reflection (confirmed by the student).
-- [ ] Add any feedback and resulting revisions when available.
+- [x] I have analysed Anggraini, Binariswanto and Legowo (2019).
+- [x] I have written my ROCCA and TOGAF discussion.
+- [x] I have posted my discussion.
+- [x] I have saved my post and submission evidence.
+- [x] I have written my reflection and skills development notes.
+- [x] I have read Jager (2025), Chapters 3–4.
+- [x] I have reviewed my Unit 2 reflection.
+- [ ] I will record feedback and any resulting revisions.
 
 Alshamaila (2023) and Ullah et al. (2022) are optional readings in the supplied guidance. No separate coding or deployment submission is specified in the Unit 2 material supplied so far.
 
 ### Artefact: ROCCA and TOGAF in Government Cloud Adoption
 
-**Evidence:** the screenshot shows the discussion under Kaona Hoxha, dated Sunday, 25 October 2026, 10:49 AM as displayed by Moodle. It includes the post and its reference.
+I posted my discussion on 25 October 2026. The screenshot below records my post and its reference.
 
 [Open full-size submission evidence](evidence/unit-2-rocca-togaf-post.png)
 
@@ -209,7 +209,7 @@ Overall, combining ROCCA and TOGAF offers a useful basis for accountable cloud p
 
 Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption strategic planning using ROCCA and TOGAF 9.2: A study in government agency’, *Procedia Computer Science*, 161, pp. 1316–1324. Available at: https://doi.org/10.1016/j.procs.2019.11.247.
 
-### Reflection: reviewed and agreed by the student
+### My Unit 2 reflection
 
 **What?** I examined the use of ROCCA and TOGAF 9.2 in the SKK Migas case and prepared a discussion evaluating the proposed framework. The activity required distinguishing the authors' account of its usefulness from evidence of its effectiveness.
 
@@ -228,7 +228,7 @@ Anggraini, N., Binariswanto and Legowo, N. (2019) ‘Cloud computing adoption st
 
 ### Feedback
 
-No tutor or peer feedback has been supplied yet. Record feedback and any resulting changes when available.
+I have not yet received feedback. I will record any comments and the changes I make in response.
 
 ## Unit 3: Cloud Design Tools
 
@@ -238,24 +238,24 @@ No tutor or peer feedback has been supplied yet. Record feedback and any resulti
 - Analyse real-world use cases of AI-driven cloud platforms.
 - Evaluate the benefits of integrating AI into cloud systems.
 
-The supplied formative discussion separately asks for a comparison of cloud design tools. The Summary addresses that task; the fundamentals reflection uses AI product examples to explore service models. Neither constitutes a practical performance evaluation.
+I compared cloud design tools in my Summary and explored service models through AI product examples in my fundamentals reflection. My analysis is based on documentation rather than a practical performance evaluation.
 
 ### Progress checklist
 
-- [x] Prepare the 300-word cloud design tool Summary (excluding references).
-- [x] Post the Summary: verified against the supplied screenshot.
-- [x] Preserve the Summary screenshot and text.
-- [ ] Read and respond to a peer's post in 300 words excluding references: waiting for a peer to post.
-- [x] Complete and save the 300-word Cloud computing fundamentals reflection in the portfolio.
-- [x] Approve inclusion of the fundamentals reflection in GitHub.
-- [ ] Confirm any separate Moodle submission, if required by the activity.
-- [ ] Complete the lecturecast (not yet confirmed).
-- [ ] Complete the required Kubernetes Book reading (no chapters specified; completion not yet confirmed).
-- [ ] Add feedback and update reflection when available.
+- [x] I have written my 300-word cloud design tool Summary.
+- [x] I have posted my Summary.
+- [x] I have saved my Summary and screenshot.
+- [ ] I will read and respond to a peer's post in 300 words excluding references when a post is available.
+- [x] I have completed and saved my 300-word Cloud computing fundamentals reflection.
+- [x] I have added my fundamentals reflection to this portfolio.
+- [ ] I will check whether the activity requires a separate Moodle submission.
+- [ ] I will complete the Unit 3 lecturecast.
+- [ ] I will complete the required Kubernetes Book reading.
+- [ ] I will use any feedback to update my reflection.
 
 ### Artefact 1: Summary — Structurizr for Cloud Application Design
 
-The supplied screenshot shows a Summary posted under Kaona Hoxha on Sunday, 25 October 2026, 4:32 PM as displayed by Moodle, including the text and references.
+I posted my Summary on 25 October 2026. I have included a screenshot of my post and references below.
 
 [Open full-size Summary evidence](evidence/unit-3-structurizr-summary.png)
 
@@ -283,11 +283,11 @@ Structurizr (n.d.c) *Why “as code”?* Available at: https://docs.structurizr.
 
 ### Artefact 2: Peer Response
 
-Pending: no peer post was available when the student completed the Summary. The response will address an actual peer contribution when available.
+I am waiting for a peer to post before writing my response. I will engage with their argument and support my response with relevant sources.
 
 ### Artefact 3: Cloud computing fundamentals — reflection
 
-**Status:** 300-word reflection, excluding references, included in the portfolio at the student's request. Any separate Moodle submission remains unconfirmed.
+I wrote the following 300-word reflection on the differences and use cases of IaaS, PaaS and SaaS, using recent product developments as examples.
 
 Comparing IaaS, PaaS and SaaS has helped me frame cloud adoption as a decision about responsibility, rather than a choice of provider. The models differ in how much of the technology stack the customer controls: infrastructure services allow operating-system management, platforms support application deployment, and software services provide finished applications (Mell and Grance, 2011).
 
@@ -319,9 +319,9 @@ Spataro, J. (2025) *Copilot for all: Introducing Microsoft 365 Copilot Chat*. 15
 
 ## Later units and final submission
 
-Add each unit's checklist, selected artefacts, feedback, reflection and skills updates as work progresses. Units 1–3 are recorded above. Units 4–12 will be added as work progresses.
+I have recorded my work for Units 1–3 above. I will add my checklists, selected artefacts, feedback, reflections and skills updates for Units 4–12 as I progress.
 
-Before final submission:
+Before final submission, I will:
 - Check the module-specific e-Portfolio brief and rubric, including the 2,000-word requirement and what it includes.
 - Select and connect the strongest evidence to the full module learning outcomes.
 - Complete the critical reflection, skills matrix and action plan.
