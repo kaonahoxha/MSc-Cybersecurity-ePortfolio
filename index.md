@@ -2,19 +2,19 @@
 
 ## University of Essex Online
 
-This e-Portfolio is organised by module to keep the supporting evidence clear and easy to navigate.
+I have organised my e-Portfolio by module to bring together my coursework, practical activities and reflections.
 
 - [About Me](about.md)
 
 ## Cloud Operations and Management
 
-Cloud service evaluation, unit activities, reflections, feedback and professional development.
+I have included my cloud service comparisons, unit activities, reflections and development plans.
 
 - [Open the Cloud Operations and Management portfolio](Cloud-Operations-and-Management/index.md)
 
 ## Advanced Object-Oriented Design and Programming
 
-The AOODP portfolio contains practical programming exercises, design-pattern implementations, concurrency work, automated testing, dependency injection, architectural evaluation and requirements traceability.
+I have included my programming exercises, design-pattern implementations, concurrency work, testing and architectural evaluation.
 
 - [Open the AOODP portfolio](Advanced-Object-Oriented-Design-and-Programming/README.md)
 
