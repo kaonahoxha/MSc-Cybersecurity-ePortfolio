@@ -291,6 +291,20 @@ Spataro, J. (2025) *Copilot for all: Introducing Microsoft 365 Copilot Chat*. 15
 | Cloud service evaluation | Fundamentals reflection links service boundaries to AI examples | Product announcements do not establish adoption or performance outcomes | I will apply the comparison to a defined workload and justify a service model |
 | Peer discussion | Summary posted | Response not yet possible | I will respond to one actual peer post when available |
 
+## Unit 4: Cloud Native Technology Part 1
+
+### Artefact: Bash automation on Azure
+
+I used Bash and the Azure CLI to deploy a temporary Azure Container Instance in France Central. I configured it to run once, print its operating system details and exit.
+
+I checked the container logs for `UNIT4_COMMANDS_OK` to verify that the commands ran inside the instance. My script then requested deletion of the temporary resource group.
+
+[My Bash script](artefacts/unit4-azure.sh)
+
+![Azure Cloud Shell output showing Microsoft Azure Linux 3.0, the success marker and the cleanup request](evidence/unit-4-azure-execution.png)
+
+I submitted the script and my 500-word explanation on Moodle on 8 November 2026.
+
 ## Later units and final submission
 
 Before final submission, I will:
