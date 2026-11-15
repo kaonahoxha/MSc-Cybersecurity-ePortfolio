@@ -316,7 +316,7 @@ I deployed a small Python application on a local Minikube cluster using Docker. 
 - [x] I have verified the running application and logs.
 - [x] I have prepared my deployment write-up.
 - [ ] I will confirm my forum post has been published.
-- [ ] I will complete the separate Cloud configuration activity.
+- [x] I have completed the Cloud configuration activity and written my experience report.
 
 [My deployment write-up](artefacts/unit5-kubernetes-deployment.md) · [My application files](artefacts/unit5-app/)
 
@@ -333,6 +333,32 @@ I have cropped my screenshots to show the deployment results, browser response a
 ### My reflection
 
 I could see the distinction between an image and a deployment once the same image was running in two pods. Moving the message into a ConfigMap also meant that my deployment settings were separate from the application code. My checks established that the app was running and responding, but I did not test recovery after failure or performance under load. Both replicas used one node, so I cannot treat this as evidence of high availability. In a later activity, I will test pod replacement and record what happens to requests during recovery.
+
+### Cloud Configuration — Experience and Challenges
+
+For this activity, I used Docker and Kubernetes to configure and run a small Python application on my Mac. I chose a local Minikube cluster so I could work through the deployment process without creating more Azure resources. The application itself was deliberately simple: it displayed a message in the browser, allowing me to concentrate on the configuration behind it.
+
+I installed Docker Desktop, Minikube and kubectl, then started the cluster using `minikube start --driver=docker`. The first startup took time because Kubernetes needed to download its components. Once it finished, I ran `kubectl get nodes` and checked that the node was ready. This gave me a clear starting point before introducing the application.
+
+One useful part of the exercise was keeping the application’s settings outside its source code. The Python application reads its message and port from environment variables, which I supplied through a ConfigMap. Wiggins (2017) recommends this separation because configuration can vary between deployments. In my case, it meant the displayed message belonged to the deployment settings rather than being built into the image.
+
+I then packaged the application using a Dockerfile. This specified the Python base image, copied the source file and defined the startup command. I also configured a non-root user. After building the image, I loaded it into Minikube. This step helped me understand that building an image in Docker does not automatically make it available inside the cluster.
+
+My `deployment.yaml` file brought together a ConfigMap, Deployment and Service. I configured two replicas and used labels to associate the pods with the Service. Initially, these resources were difficult to distinguish. Working through them made their roles clearer: the Deployment specifies the application instances Kubernetes should maintain, while the Service provides access to the selected pods (Kubernetes Authors, n.d.).
+
+I included CPU and memory requests and limits, together with a readiness probe. The probe checked whether the application could answer an HTTP request. Seeing both pods report `1/1` readiness was useful, but I still checked the application in the browser. I used port forwarding to access it locally and confirmed that my configured message appeared. The logs also showed successful HTTP 200 responses from both pods.
+
+The main challenge was understanding how the different parts fitted together. There were no deployment errors in this attempt, but successful commands alone would not have explained what was happening. Checking the cluster, pods, browser response and logs gave me separate pieces of evidence that the configuration worked.
+
+The exercise also showed the limits of my setup. Two replicas on one node do not protect against node failure, and temporary port forwarding is only a development access method. I had confirmed basic operation, rather than tested reliability or performance.
+
+Next, I would delete one pod and observe whether Kubernetes replaces it, checking what happens to application access during recovery. I would also measure resource use before changing the limits. This would help me move beyond choosing configuration values that work towards explaining, with evidence, why those values are appropriate for the application.
+
+#### References
+
+Kubernetes Authors (n.d.) *Using kubectl to create a Deployment*. Available at: https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/ (Accessed: 15 November 2026).
+
+Wiggins, A. (2017) *The Twelve-Factor App*. Available at: https://12factor.net/ (Accessed: 15 November 2026).
 
 ## Later units and final submission
 
