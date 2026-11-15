@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: unit5-config
+data:
+  APP_MESSAGE: "Kaona's Unit 5 application is running on Kubernetes"
+  PORT: "8080"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: unit5-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: unit5-app
+  template:
+    metadata:
+      labels:
+        app: unit5-app
+    spec:
+      containers:
+        - name: web
+          image: unit5-app:v1
+          imagePullPolicy: Never
+          envFrom:
+            - configMapRef:
+                name: unit5-config
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "32Mi"
+            limits:
+              cpu: "500m"
+              memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: unit5-app
+spec:
+  selector:
+    app: unit5-app
+  ports:
+    - port: 80
+      targetPort: 8080

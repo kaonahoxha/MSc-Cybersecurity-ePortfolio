@@ -305,6 +305,35 @@ I checked the container logs for `UNIT4_COMMANDS_OK` to verify that the commands
 
 I submitted the script and my 500-word explanation on Moodle on 8 November 2026.
 
+## Unit 5: Cloud Native Technology Part 2
+
+### My Kubernetes deployment
+
+I deployed a small Python application on a local Minikube cluster using Docker. I kept its settings in a ConfigMap and ran two replicas. I checked that both pods were ready, opened the application in my browser and inspected the logs for successful HTTP 200 responses.
+
+- [x] I have created the Minikube cluster.
+- [x] I have built and deployed my Docker image.
+- [x] I have verified the running application and logs.
+- [x] I have prepared my deployment write-up.
+- [ ] I will confirm my forum post has been published.
+- [ ] I will complete the separate Cloud configuration activity.
+
+[My deployment write-up](artefacts/unit5-kubernetes-deployment.md) · [My application files](artefacts/unit5-app/)
+
+### My evidence
+
+I have included my original screenshots in full.
+
+![My successful rollout and two ready pods](evidence/unit-5-running-pods.png)
+
+![My application responding in the browser](evidence/unit-5-browser.png)
+
+![My application logs showing HTTP 200 responses](evidence/unit-5-logs.png)
+
+### My reflection
+
+I could see the distinction between an image and a deployment once the same image was running in two pods. Moving the message into a ConfigMap also meant that my deployment settings were separate from the application code. My checks established that the app was running and responding, but I did not test recovery after failure or performance under load. Both replicas used one node, so I cannot treat this as evidence of high availability. In a later activity, I will test pod replacement and record what happens to requests during recovery.
+
 ## Later units and final submission
 
 Before final submission, I will:
