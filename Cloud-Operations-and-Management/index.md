@@ -322,7 +322,7 @@ I deployed a small Python application on a local Minikube cluster using Docker. 
 
 ### My evidence
 
-I have included my original screenshots in full.
+I have cropped my screenshots to show the deployment results, browser response and application logs.
 
 ![My successful rollout and two ready pods](evidence/unit-5-running-pods.png)
 
