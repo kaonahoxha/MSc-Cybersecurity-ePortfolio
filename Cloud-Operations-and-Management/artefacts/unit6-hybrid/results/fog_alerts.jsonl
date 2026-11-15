@@ -1,0 +1,5 @@
+{"device": "lab-a", "id": "lab-a-4", "kind": "alert", "local_action": "raise_cooling_alarm", "temperature_c": 31, "tick": 4}
+{"device": "lab-a", "id": "lab-a-5", "kind": "alert", "local_action": "raise_cooling_alarm", "temperature_c": 32, "tick": 5}
+{"device": "lab-b", "id": "lab-b-5", "kind": "alert", "local_action": "raise_cooling_alarm", "temperature_c": 31, "tick": 5}
+{"device": "lab-b", "id": "lab-b-6", "kind": "alert", "local_action": "raise_cooling_alarm", "temperature_c": 32, "tick": 6}
+{"device": "lab-c", "id": "lab-c-8", "kind": "alert", "local_action": "raise_cooling_alarm", "temperature_c": 30, "tick": 8}

@@ -1,0 +1,23 @@
+{
+  "scope": "logical simulation; no deployed clouds, networking or measured latency",
+  "raw_readings": 36,
+  "local_alerts": 5,
+  "alerts_during_wan_outage": 4,
+  "cloud_records": 17,
+  "summaries": 12,
+  "record_count_reduction_percent": 52.78,
+  "raw_json_payload_bytes": 2460,
+  "forwarded_json_payload_bytes": 1856,
+  "payload_byte_reduction_percent": 24.55,
+  "peak_buffer_records": 11,
+  "remaining_buffer_records": 0,
+  "duplicate_cloud_records": 0,
+  "max_alert_cloud_delay_ticks": 4,
+  "checks": {
+    "all_raw_readings_retained_locally": true,
+    "local_alerts_continue_during_outage": true,
+    "all_alerts_reach_cloud": true,
+    "buffer_drained": true,
+    "no_duplicate_deliveries": true
+  }
+}

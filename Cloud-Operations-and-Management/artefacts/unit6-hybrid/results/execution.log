@@ -1,0 +1,12 @@
+t=2: cloud accepted 3 queued records
+t=4: LOCAL ALERT lab-a 31C; WAN=False
+t=4: WAN unavailable; buffer=1
+t=5: LOCAL ALERT lab-a 32C; WAN=False
+t=5: LOCAL ALERT lab-b 31C; WAN=False
+t=5: WAN unavailable; buffer=6
+t=6: LOCAL ALERT lab-b 32C; WAN=False
+t=6: WAN unavailable; buffer=7
+t=7: WAN unavailable; buffer=7
+t=8: LOCAL ALERT lab-c 30C; WAN=True
+t=8: cloud accepted 11 queued records
+t=11: cloud accepted 3 queued records

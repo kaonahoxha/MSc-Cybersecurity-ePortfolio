@@ -1,0 +1,17 @@
+{"count": 3, "device": "lab-a", "id": "summary-lab-a-2", "kind": "summary", "mean_c": 23.0, "received_tick": 2, "tick": 2}
+{"count": 3, "device": "lab-b", "id": "summary-lab-b-2", "kind": "summary", "mean_c": 21.33, "received_tick": 2, "tick": 2}
+{"count": 3, "device": "lab-c", "id": "summary-lab-c-2", "kind": "summary", "mean_c": 20.67, "received_tick": 2, "tick": 2}
+{"device": "lab-a", "id": "lab-a-4", "kind": "alert", "local_action": "raise_cooling_alarm", "received_tick": 8, "temperature_c": 31, "tick": 4}
+{"device": "lab-a", "id": "lab-a-5", "kind": "alert", "local_action": "raise_cooling_alarm", "received_tick": 8, "temperature_c": 32, "tick": 5}
+{"device": "lab-b", "id": "lab-b-5", "kind": "alert", "local_action": "raise_cooling_alarm", "received_tick": 8, "temperature_c": 31, "tick": 5}
+{"count": 3, "device": "lab-a", "id": "summary-lab-a-5", "kind": "summary", "mean_c": 29.33, "received_tick": 8, "tick": 5}
+{"count": 3, "device": "lab-b", "id": "summary-lab-b-5", "kind": "summary", "mean_c": 26.0, "received_tick": 8, "tick": 5}
+{"count": 3, "device": "lab-c", "id": "summary-lab-c-5", "kind": "summary", "mean_c": 23.0, "received_tick": 8, "tick": 5}
+{"device": "lab-b", "id": "lab-b-6", "kind": "alert", "local_action": "raise_cooling_alarm", "received_tick": 8, "temperature_c": 32, "tick": 6}
+{"device": "lab-c", "id": "lab-c-8", "kind": "alert", "local_action": "raise_cooling_alarm", "received_tick": 8, "temperature_c": 30, "tick": 8}
+{"count": 3, "device": "lab-a", "id": "summary-lab-a-8", "kind": "summary", "mean_c": 26.0, "received_tick": 8, "tick": 8}
+{"count": 3, "device": "lab-b", "id": "summary-lab-b-8", "kind": "summary", "mean_c": 29.33, "received_tick": 8, "tick": 8}
+{"count": 3, "device": "lab-c", "id": "summary-lab-c-8", "kind": "summary", "mean_c": 27.0, "received_tick": 8, "tick": 8}
+{"count": 3, "device": "lab-a", "id": "summary-lab-a-11", "kind": "summary", "mean_c": 22.33, "received_tick": 11, "tick": 11}
+{"count": 3, "device": "lab-b", "id": "summary-lab-b-11", "kind": "summary", "mean_c": 23.33, "received_tick": 11, "tick": 11}
+{"count": 3, "device": "lab-c", "id": "summary-lab-c-11", "kind": "summary", "mean_c": 26.0, "received_tick": 11, "tick": 11}

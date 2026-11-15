@@ -360,6 +360,25 @@ Kubernetes Authors (n.d.) *Using kubectl to create a Deployment*. Available at: 
 
 Wiggins, A. (2017) *The Twelve-Factor App*. Available at: https://12factor.net/ (Accessed: 15 November 2026).
 
+## Unit 6: Hybrid Cloud Solutions
+
+### My hybrid architecture and IoT simulation
+
+I designed a smart-campus architecture with edge sensors, a fog gateway, an on-premise OpenStack service and an Azure public-cloud endpoint. I prepared a runnable Python model to explore local alerts, aggregation and buffering during a WAN outage.
+
+This is an architecture design and logical simulation. OpenStack, Azure, VPN connectivity and physical sensors were not deployed. The recorded reference run was executed in the preparation environment; it does not record execution on my Mac.
+
+- [x] I have designed the hybrid architecture and identified OpenStack components.
+- [x] I have included fog processing and simulated edge-device readings.
+- [x] I have documented the reference-run results and limitations.
+- [x] I have written my reflection on fog integration, security and vendor dependence.
+- [ ] I will run the simulation locally and add my own execution evidence.
+- [ ] I will record any tutor feedback and respond to it.
+
+[My architecture diagram, results and reflection](artefacts/unit6-hybrid/README.md) · [My Python simulation](artefacts/unit6-hybrid/simulate.py) · [My configuration](artefacts/unit6-hybrid/config.json) · [Reference-run metrics](artefacts/unit6-hybrid/results/metrics.json)
+
+The model generated 36 readings and five local alerts. Four alerts occurred during the simulated WAN outage. After reconnection, all selected records reached the cloud model. JSON payload bytes fell by 24.55% compared with forwarding every raw reading; this is a model result, not measured network performance.
+
 ## Later units and final submission
 
 Before final submission, I will:
