@@ -324,11 +324,11 @@ I deployed a small Python application on a local Minikube cluster using Docker. 
 
 I have cropped my screenshots to show the deployment results, browser response and application logs.
 
-![My successful rollout and two ready pods](evidence/unit-5-running-pods.png)
+![My successful rollout and two ready pods](evidence/unit-5-running-pods-selected.png)
 
-![My application responding in the browser](evidence/unit-5-browser.png)
+![My application responding in the browser](evidence/unit-5-browser-selected.png)
 
-![My application logs showing HTTP 200 responses](evidence/unit-5-logs.png)
+![My application logs showing HTTP 200 responses](evidence/unit-5-logs-selected.png)
 
 ### My reflection
 
